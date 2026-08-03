@@ -10,11 +10,22 @@ You should not need to edit this file except for the USERNAMES section below.
 
 import json
 import re
+import ssl
 import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
+
+# Some hosts (like the free Render.com box behind Serializd's unofficial API)
+# negotiate TLS in a way Python's default strict settings reject. Loosening
+# the cipher security level (while still verifying the certificate) fixes
+# "SSLV3_ALERT_HANDSHAKE_FAILURE" errors against those hosts.
+_SSL_CONTEXT = ssl.create_default_context()
+try:
+    _SSL_CONTEXT.set_ciphers("DEFAULT@SECLEVEL=1")
+except ssl.SSLError:
+    pass
 
 # ============== EDIT THIS SECTION WITH YOUR OWN INFO ==============
 
@@ -34,7 +45,7 @@ OUTPUT_PATH = "docs/data.json"
 def fetch_url(url, method="GET", data=None, timeout=20):
     """Small helper to fetch a URL and return the raw bytes."""
     req = Request(url, headers=HEADERS, method=method, data=data)
-    with urlopen(req, timeout=timeout) as resp:
+    with urlopen(req, timeout=timeout, context=_SSL_CONTEXT) as resp:
         return resp.read()
 
 
@@ -99,7 +110,7 @@ def anilist_query(query, variables):
         headers={**HEADERS, "Content-Type": "application/json", "Accept": "application/json"},
         method="POST",
     )
-    with urlopen(req, timeout=20) as resp:
+    with urlopen(req, timeout=20, context=_SSL_CONTEXT) as resp:
         return json.loads(resp.read())
 
 
@@ -263,6 +274,41 @@ def fetch_serializd():
 # ---------------------------------------------------------------------------
 # 6. MYDRAMALIST (Asian Drama) — unofficial scraper API (kuryana)
 # ---------------------------------------------------------------------------
+def _key_matches(key, *needles):
+    key_lower = key.lower()
+    return any(n in key_lower for n in needles)
+
+
+def _walk_for_dramas(node, found, seen_titles):
+    """Recursively walk the JSON looking for dict entries that look like a
+    single drama (has some kind of title field). This makes us resilient to
+    this unofficial API changing its exact nesting/key names over time."""
+    if isinstance(node, dict):
+        title = image = link = None
+        rating = None
+        for key, value in node.items():
+            if isinstance(value, str) and value.strip():
+                if title is None and _key_matches(key, "title") and "query" not in key.lower():
+                    title = value.strip()
+                elif image is None and _key_matches(key, "image", "poster", "thumb", "banner", "cover"):
+                    image = value.strip()
+                elif link is None and _key_matches(key, "url", "link", "slug"):
+                    link = value.strip()
+            if rating is None and _key_matches(key, "rating", "score") and "average" not in key.lower():
+                rating = safe_float(value)
+
+        if title and title not in seen_titles:
+            seen_titles.add(title)
+            found.append({"title": title, "rating": rating, "image": image, "link": link})
+
+        for value in node.values():
+            _walk_for_dramas(value, found, seen_titles)
+
+    elif isinstance(node, list):
+        for entry in node:
+            _walk_for_dramas(entry, found, seen_titles)
+
+
 def fetch_mydramalist():
     items = []
     url = f"https://kuryana.tbdh.app/dramalist/{MYDRAMALIST_USERNAME}"
@@ -270,38 +316,27 @@ def fetch_mydramalist():
         raw = fetch_url(url)
         data = json.loads(raw)
 
-        # The exact shape of this unofficial endpoint isn't guaranteed, so we
-        # search defensively through whatever lists come back.
-        possible_lists = []
-        if isinstance(data.get("data"), dict):
-            possible_lists = list(data["data"].values())
-        elif isinstance(data.get("results"), dict):
-            possible_lists = list(data["results"].values())
+        found = []
+        _walk_for_dramas(data.get("data", data), found, set())
 
-        for lst in possible_lists:
-            if not isinstance(lst, list):
-                continue
-            for drama in lst:
-                if not isinstance(drama, dict):
-                    continue
-                title = drama.get("title") or drama.get("name")
-                if not title:
-                    continue
-                rating_raw = drama.get("rating") or drama.get("user_rating")
-                rating_10 = safe_float(rating_raw)
-                rating_5 = round(rating_10 / 2, 1) if rating_10 else None
-                items.append({
-                    "title": title,
-                    "category": "Asian Drama",
-                    "rating": rating_5,
-                    "cover": drama.get("thumb") or drama.get("poster") or drama.get("image", ""),
-                    "link": drama.get("link", ""),
-                    "source": "MyDramaList",
-                })
+        for drama in found:
+            rating_10 = drama["rating"]
+            rating_5 = round(rating_10 / 2, 1) if rating_10 else None
+            link = drama["link"] or ""
+            if link and link.startswith("/"):
+                link = "https://mydramalist.com" + link
+            items.append({
+                "title": drama["title"],
+                "category": "Asian Drama",
+                "rating": rating_5,
+                "cover": drama["image"] or "",
+                "link": link,
+                "source": "MyDramaList",
+            })
         print(f"[MyDramaList] fetched {len(items)} items")
         if not items:
-            print("[MyDramaList] NOTE: 0 items found — the response shape may have "
-                  "changed. Raw keys were:", list(data.keys()))
+            print("[MyDramaList] NOTE: still 0 — raw response (first 1000 chars):")
+            print(json.dumps(data)[:1000])
     except Exception as e:
         print(f"[MyDramaList] FAILED: {e}")
     return items
