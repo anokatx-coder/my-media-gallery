@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T08:38:33.309542+00:00",
+  "updated_at": "2026-08-03T08:49:14.503469+00:00",
   "count": 6835,
   "items": [
     {
@@ -53325,17 +53325,9 @@
     {
       "title": "My Royal Nemesis",
       "category": "Asian Drama",
-      "rating": null,
+      "rating": 4.5,
       "cover": "https://i.mydramalist.com/nOowWE_4c.jpg?v=1",
       "link": "https://mydramalist.com/788412-brave-new-world",
-      "source": "MyDramaList"
-    },
-    {
-      "title": "The Prosecutor's Proposal",
-      "category": "Asian Drama",
-      "rating": null,
-      "cover": "https://i.mydramalist.com/VXxpVy_4c.jpg?v=1",
-      "link": "https://mydramalist.com/796826-the-prosecutor-s-office-s-proposal",
       "source": "MyDramaList"
     },
     {
@@ -53344,14 +53336,6 @@
       "rating": null,
       "cover": "https://i.mydramalist.com/l0m8bJ_4c.jpg?v=1",
       "link": "https://mydramalist.com/768853-the-b-team",
-      "source": "MyDramaList"
-    },
-    {
-      "title": "Typhoon Family",
-      "category": "Asian Drama",
-      "rating": null,
-      "cover": "https://i.mydramalist.com/l0L5xJ_4c.jpg?v=1",
-      "link": "https://mydramalist.com/777994-typhoon-boss",
       "source": "MyDramaList"
     },
     {
@@ -54443,6 +54427,14 @@
       "source": "MyDramaList"
     },
     {
+      "title": "The Prosecutor's Proposal",
+      "category": "Asian Drama",
+      "rating": 4.0,
+      "cover": "https://i.mydramalist.com/VXxpVy_4c.jpg?v=1",
+      "link": "https://mydramalist.com/796826-the-prosecutor-s-office-s-proposal",
+      "source": "MyDramaList"
+    },
+    {
       "title": "The Time We Were Not in Love",
       "category": "Asian Drama",
       "rating": 4.0,
@@ -54504,6 +54496,14 @@
       "rating": 4.2,
       "cover": "https://i.mydramalist.com/ROOPo_4c.jpg?v=1",
       "link": "https://mydramalist.com/695149-twenty-five-twenty-one",
+      "source": "MyDramaList"
+    },
+    {
+      "title": "Typhoon Family",
+      "category": "Asian Drama",
+      "rating": 4.5,
+      "cover": "https://i.mydramalist.com/l0L5xJ_4c.jpg?v=1",
+      "link": "https://mydramalist.com/777994-typhoon-boss",
       "source": "MyDramaList"
     },
     {
