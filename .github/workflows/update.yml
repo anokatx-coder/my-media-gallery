@@ -1,0 +1,34 @@
+name: Update media data
+
+on:
+  schedule:
+    # Runs at minute 0 past every 4th hour (UTC). Edit this if you want a
+    # different frequency — see https://crontab.guru for help.
+    - cron: "0 */4 * * *"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run fetcher
+        run: python fetch_data.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "media-gallery-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data.json
+          git diff --staged --quiet || git commit -m "Update media data"
+          git push
