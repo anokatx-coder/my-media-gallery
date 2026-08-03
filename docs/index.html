@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Log</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #12141c;
+    --surface: #1b1e29;
+    --surface-hover: #232735;
+    --card-border: #2c3040;
+    --paper: #ece7da;
+    --paper-dim: #a9a495;
+    --brass: #c9a15d;
+    --brass-dim: #8a744a;
+    --stamp-red: #a5473a;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--ink);
+    background-image:
+      radial-gradient(circle at 15% 0%, rgba(201,161,93,0.06), transparent 40%),
+      radial-gradient(circle at 85% 100%, rgba(165,71,58,0.05), transparent 40%);
+    color: var(--paper);
+    font-family: 'IBM Plex Mono', monospace;
+    min-height: 100vh;
+  }
+
+  header {
+    padding: 56px 32px 28px;
+    text-align: center;
+    border-bottom: 1px solid var(--card-border);
+  }
+
+  header h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: clamp(2.4rem, 6vw, 3.6rem);
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+    color: var(--paper);
+  }
+
+  header .subtitle {
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--brass);
+  }
+
+  #updated {
+    margin-top: 10px;
+    font-size: 0.72rem;
+    color: var(--paper-dim);
+  }
+
+  .controls {
+    max-width: 1100px;
+    margin: 28px auto 0;
+    padding: 0 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tab {
+    background: var(--surface);
+    border: 1px solid var(--card-border);
+    color: var(--paper-dim);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 9px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .tab:hover { border-color: var(--brass-dim); color: var(--paper); }
+
+  .tab.active {
+    background: var(--brass);
+    border-color: var(--brass);
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  #search {
+    background: var(--surface);
+    border: 1px solid var(--card-border);
+    color: var(--paper);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.8rem;
+    padding: 9px 14px;
+    border-radius: 3px;
+    width: 220px;
+    outline: none;
+  }
+  #search:focus { border-color: var(--brass-dim); }
+  #search::placeholder { color: var(--paper-dim); }
+
+  #count {
+    max-width: 1100px;
+    margin: 20px auto 0;
+    padding: 0 32px;
+    font-size: 0.72rem;
+    color: var(--paper-dim);
+    letter-spacing: 0.05em;
+  }
+
+  .grid {
+    max-width: 1200px;
+    margin: 18px auto 80px;
+    padding: 0 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 22px;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--card-border);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .card:hover {
+    transform: translateY(-3px);
+    border-color: var(--brass-dim);
+    background: var(--surface-hover);
+  }
+
+  .cover-wrap {
+    position: relative;
+    aspect-ratio: 2 / 3;
+    background: linear-gradient(160deg, #232735, #171a24);
+    overflow: hidden;
+  }
+
+  .cover-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .cover-wrap .no-cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    color: var(--paper-dim);
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 12px;
+  }
+
+  .stamp {
+    position: absolute;
+    top: 8px;
+    right: -26px;
+    background: var(--stamp-red);
+    color: var(--paper);
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    padding: 3px 30px;
+    transform: rotate(35deg);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+    font-weight: 600;
+  }
+
+  .meta {
+    padding: 12px 13px 14px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .title {
+    font-family: 'Fraunces', serif;
+    font-size: 0.95rem;
+    line-height: 1.25;
+    color: var(--paper);
+  }
+
+  .bottom-row {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.68rem;
+    color: var(--paper-dim);
+  }
+
+  .rating { color: var(--brass); letter-spacing: 1px; }
+
+  #empty {
+    text-align: center;
+    padding: 80px 20px;
+    color: var(--paper-dim);
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    display: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>The Log</h1>
+  <div class="subtitle">a personal record of things watched, read &amp; logged</div>
+  <div id="updated">loading…</div>
+</header>
+
+<div class="controls" id="tabs"></div>
+<div class="controls">
+  <input type="text" id="search" placeholder="search titles…">
+</div>
+
+<div id="count"></div>
+<div class="grid" id="grid"></div>
+<div id="empty">Nothing here yet. Once the fetcher runs, your logged titles will appear.</div>
+
+<script>
+const CATEGORIES = ["All", "Movie", "TV Show", "Book", "Manga", "Anime", "Asian Drama"];
+const STAMP_ABBR = {
+  "Movie": "MOV", "TV Show": "TV", "Book": "BK",
+  "Manga": "MNG", "Anime": "ANI", "Asian Drama": "DRA"
+};
+
+let allItems = [];
+let activeCategory = "All";
+let searchTerm = "";
+
+function renderTabs() {
+  const tabsEl = document.getElementById("tabs");
+  tabsEl.innerHTML = "";
+  CATEGORIES.forEach(cat => {
+    const btn = document.createElement("button");
+    btn.className = "tab" + (cat === activeCategory ? " active" : "");
+    btn.textContent = cat;
+    btn.onclick = () => { activeCategory = cat; renderTabs(); renderGrid(); };
+    tabsEl.appendChild(btn);
+  });
+}
+
+function starString(rating) {
+  if (rating === null || rating === undefined) return "unrated";
+  const full = Math.round(rating);
+  return "★".repeat(full) + "☆".repeat(5 - full) + `  ${rating}/5`;
+}
+
+function renderGrid() {
+  const grid = document.getElementById("grid");
+  const emptyEl = document.getElementById("empty");
+  const countEl = document.getElementById("count");
+  grid.innerHTML = "";
+
+  const filtered = allItems.filter(item => {
+    const matchesCategory = activeCategory === "All" || item.category === activeCategory;
+    const matchesSearch = item.title.toLowerCase().includes(searchTerm.toLowerCase());
+    return matchesCategory && matchesSearch;
+  });
+
+  countEl.textContent = `${filtered.length} item${filtered.length === 1 ? "" : "s"}`;
+
+  if (filtered.length === 0) {
+    emptyEl.style.display = "block";
+    return;
+  }
+  emptyEl.style.display = "none";
+
+  filtered.forEach(item => {
+    const card = document.createElement(item.link ? "a" : "div");
+    card.className = "card";
+    if (item.link) { card.href = item.link; card.target = "_blank"; card.rel = "noopener"; }
+
+    const coverWrap = document.createElement("div");
+    coverWrap.className = "cover-wrap";
+
+    if (item.cover) {
+      const img = document.createElement("img");
+      img.src = item.cover;
+      img.loading = "lazy";
+      img.alt = item.title;
+      img.onerror = () => { coverWrap.innerHTML = `<div class="no-cover">${item.title}</div>`; };
+      coverWrap.appendChild(img);
+    } else {
+      coverWrap.innerHTML = `<div class="no-cover">${item.title}</div>`;
+    }
+
+    const stamp = document.createElement("div");
+    stamp.className = "stamp";
+    stamp.textContent = STAMP_ABBR[item.category] || item.category;
+    coverWrap.appendChild(stamp);
+
+    const meta = document.createElement("div");
+    meta.className = "meta";
+    meta.innerHTML = `
+      <div class="title">${item.title}</div>
+      <div class="bottom-row">
+        <span class="rating">${starString(item.rating)}</span>
+      </div>
+    `;
+
+    card.appendChild(coverWrap);
+    card.appendChild(meta);
+    grid.appendChild(card);
+  });
+}
+
+async function loadData() {
+  try {
+    const res = await fetch("data.json?t=" + Date.now());
+    const data = await res.json();
+    allItems = data.items || [];
+    const updated = new Date(data.updated_at);
+    document.getElementById("updated").textContent =
+      `last synced ${updated.toLocaleString()} · ${data.count} items`;
+  } catch (e) {
+    document.getElementById("updated").textContent = "no data yet — run the fetcher first";
+    allItems = [];
+  }
+  renderTabs();
+  renderGrid();
+}
+
+document.getElementById("search").addEventListener("input", (e) => {
+  searchTerm = e.target.value;
+  renderGrid();
+});
+
+loadData();
+</script>
+
+</body>
+</html>
