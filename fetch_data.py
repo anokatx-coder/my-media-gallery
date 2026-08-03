@@ -10,22 +10,11 @@ You should not need to edit this file except for the USERNAMES section below.
 
 import json
 import re
-import ssl
 import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
-from urllib.request import Request, urlopen
-from urllib.error import HTTPError, URLError
 
-# Some hosts (like the free Render.com box behind Serializd's unofficial API)
-# negotiate TLS in a way Python's default strict settings reject. Loosening
-# the cipher security level (while still verifying the certificate) fixes
-# "SSLV3_ALERT_HANDSHAKE_FAILURE" errors against those hosts.
-_SSL_CONTEXT = ssl.create_default_context()
-try:
-    _SSL_CONTEXT.set_ciphers("DEFAULT@SECLEVEL=1")
-except ssl.SSLError:
-    pass
+import requests
 
 # ============== EDIT THIS SECTION WITH YOUR OWN INFO ==============
 
@@ -42,11 +31,11 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (personal media gallery script)"}
 OUTPUT_PATH = "docs/data.json"
 
 
-def fetch_url(url, method="GET", data=None, timeout=20):
+def fetch_url(url, method="GET", timeout=20):
     """Small helper to fetch a URL and return the raw bytes."""
-    req = Request(url, headers=HEADERS, method=method, data=data)
-    with urlopen(req, timeout=timeout, context=_SSL_CONTEXT) as resp:
-        return resp.read()
+    resp = requests.request(method, url, headers=HEADERS, timeout=timeout)
+    resp.raise_for_status()
+    return resp.content
 
 
 def safe_float(value, default=None):
@@ -103,15 +92,14 @@ def fetch_letterboxd():
 # 2 & 3. ANILIST (Anime + Manga) — official public GraphQL API
 # ---------------------------------------------------------------------------
 def anilist_query(query, variables):
-    body = json.dumps({"query": query, "variables": variables}).encode("utf-8")
-    req = Request(
+    resp = requests.post(
         "https://graphql.anilist.co",
-        data=body,
-        headers={**HEADERS, "Content-Type": "application/json", "Accept": "application/json"},
-        method="POST",
+        json={"query": query, "variables": variables},
+        headers={**HEADERS, "Accept": "application/json"},
+        timeout=20,
     )
-    with urlopen(req, timeout=20, context=_SSL_CONTEXT) as resp:
-        return json.loads(resp.read())
+    resp.raise_for_status()
+    return resp.json()
 
 
 def get_anilist_score_format():
@@ -279,34 +267,32 @@ def _key_matches(key, *needles):
     return any(n in key_lower for n in needles)
 
 
-def _walk_for_dramas(node, found, seen_titles):
-    """Recursively walk the JSON looking for dict entries that look like a
-    single drama (has some kind of title field). This makes us resilient to
-    this unofficial API changing its exact nesting/key names over time."""
+def _find_first_image(node):
+    """Recursively look for the first field that looks like a poster/cover image."""
     if isinstance(node, dict):
-        title = image = link = None
-        rating = None
         for key, value in node.items():
-            if isinstance(value, str) and value.strip():
-                if title is None and _key_matches(key, "title") and "query" not in key.lower():
-                    title = value.strip()
-                elif image is None and _key_matches(key, "image", "poster", "thumb", "banner", "cover"):
-                    image = value.strip()
-                elif link is None and _key_matches(key, "url", "link", "slug"):
-                    link = value.strip()
-            if rating is None and _key_matches(key, "rating", "score") and "average" not in key.lower():
-                rating = safe_float(value)
-
-        if title and title not in seen_titles:
-            seen_titles.add(title)
-            found.append({"title": title, "rating": rating, "image": image, "link": link})
-
+            if isinstance(value, str) and value.strip() and _key_matches(key, "poster", "image", "thumb", "cover"):
+                return value.strip()
         for value in node.values():
-            _walk_for_dramas(value, found, seen_titles)
-
+            found = _find_first_image(value)
+            if found:
+                return found
     elif isinstance(node, list):
         for entry in node:
-            _walk_for_dramas(entry, found, seen_titles)
+            found = _find_first_image(entry)
+            if found:
+                return found
+    return None
+
+
+def fetch_drama_cover(slug):
+    """Cover images aren't in the list view, so we look them up per-show."""
+    try:
+        raw = fetch_url(f"https://kuryana.tbdh.app/id/{slug}")
+        data = json.loads(raw)
+        return _find_first_image(data.get("data", data))
+    except Exception:
+        return None
 
 
 def fetch_mydramalist():
@@ -315,21 +301,33 @@ def fetch_mydramalist():
     try:
         raw = fetch_url(url)
         data = json.loads(raw)
+        # Confirmed shape: data -> data -> list -> {CategoryName: {items: [...]}}
+        lists = data.get("data", {}).get("list", {})
 
-        found = []
-        _walk_for_dramas(data.get("data", data), found, set())
+        entries = []
+        for category_data in lists.values():
+            entries.extend(category_data.get("items", []))
 
-        for drama in found:
-            rating_10 = drama["rating"]
+        for entry in entries:
+            title = entry.get("name")
+            slug = entry.get("id")
+            if not title:
+                continue
+
+            rating_10 = safe_float(entry.get("score"))
             rating_5 = round(rating_10 / 2, 1) if rating_10 else None
-            link = drama["link"] or ""
-            if link and link.startswith("/"):
-                link = "https://mydramalist.com" + link
+            link = f"https://mydramalist.com/{slug}" if slug else ""
+
+            cover = ""
+            if slug:
+                cover = fetch_drama_cover(slug) or ""
+                time.sleep(0.3)  # be polite to the free unofficial API
+
             items.append({
-                "title": drama["title"],
+                "title": title,
                 "category": "Asian Drama",
                 "rating": rating_5,
-                "cover": drama["image"] or "",
+                "cover": cover,
                 "link": link,
                 "source": "MyDramaList",
             })
