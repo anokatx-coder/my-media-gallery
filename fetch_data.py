@@ -9,6 +9,7 @@ You should not need to edit this file except for the USERNAMES section below.
 """
 
 import json
+import os
 import re
 import time
 import xml.etree.ElementTree as ET
@@ -217,7 +218,7 @@ def fetch_goodreads():
 # ---------------------------------------------------------------------------
 def fetch_serializd():
     items = []
-    base = f"https://www.serializd.onrender.com/api/user/{SERIALIZD_USERNAME}"
+    base = f"https://serializd.onrender.com/api/user/{SERIALIZD_USERNAME}"
 
     # Pull the ratings first so we can attach them to shows below
     ratings_by_show = {}
@@ -256,6 +257,36 @@ def fetch_serializd():
         print(f"[Serializd] fetched {len(items)} items")
     except Exception as e:
         print(f"[Serializd] FAILED: {e}")
+    return items
+
+
+# ---------------------------------------------------------------------------
+# 5b. SERIALIZD MANUAL FALLBACK — a safety net in case the unofficial API
+#     above is ever unreachable again. Add entries to docs/serializd_manual.json
+#     by hand and they'll show up in the gallery alongside the automated ones.
+#     Format: [{"title": "Show Name", "rating": 4.5, "cover": "https://..."}]
+# ---------------------------------------------------------------------------
+def fetch_serializd_manual():
+    items = []
+    path = "docs/serializd_manual.json"
+    if not os.path.exists(path):
+        return items
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            manual_entries = json.load(f)
+        for entry in manual_entries:
+            items.append({
+                "title": entry.get("title", "Untitled"),
+                "category": "TV Show",
+                "rating": safe_float(entry.get("rating")),
+                "cover": entry.get("cover", ""),
+                "link": entry.get("link", ""),
+                "source": "Serializd (manual)",
+            })
+        if items:
+            print(f"[Serializd manual] loaded {len(items)} items")
+    except Exception as e:
+        print(f"[Serializd manual] FAILED: {e}")
     return items
 
 
@@ -349,7 +380,10 @@ def main():
     all_items += fetch_anilist("ANIME")
     all_items += fetch_anilist("MANGA")
     all_items += fetch_goodreads()
-    all_items += fetch_serializd()
+    serializd_items = fetch_serializd()
+    serializd_titles = {i["title"] for i in serializd_items}
+    all_items += serializd_items
+    all_items += [i for i in fetch_serializd_manual() if i["title"] not in serializd_titles]
     all_items += fetch_mydramalist()
 
     output = {
