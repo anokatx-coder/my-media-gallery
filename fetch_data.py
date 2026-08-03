@@ -2,14 +2,13 @@
 Media Gallery Data Fetcher
 ---------------------------
 Pulls your logged media from Letterboxd, AniList (anime + manga), Goodreads,
-Serializd, and MyDramaList, normalizes everything into one JSON file, and
-saves it to docs/data.json for the gallery website to read.
+and MyDramaList, normalizes everything into one JSON file, and saves it to
+docs/data.json for the gallery website to read.
 
 You should not need to edit this file except for the USERNAMES section below.
 """
 
 import json
-import os
 import re
 import time
 import xml.etree.ElementTree as ET
@@ -23,7 +22,6 @@ LETTERBOXD_USERNAME = "anokatx"
 ANILIST_USERNAME = "anokatx"
 GOODREADS_USER_ID = "8067565"
 GOODREADS_SHELF = "read"          # the shelf name you use for logged/finished books
-SERIALIZD_USERNAME = "anokatx"
 MYDRAMALIST_USERNAME = "anokatx"
 
 # ====================================================================
@@ -214,84 +212,7 @@ def fetch_goodreads():
 
 
 # ---------------------------------------------------------------------------
-# 5. SERIALIZD (Western TV) — unofficial public JSON endpoint
-# ---------------------------------------------------------------------------
-def fetch_serializd():
-    items = []
-    base = f"https://serializd.onrender.com/api/user/{SERIALIZD_USERNAME}"
-
-    # Pull the ratings first so we can attach them to shows below
-    ratings_by_show = {}
-    try:
-        raw = fetch_url(f"{base}/reviewspage_v3/?sort_by=date_desc&include_ratings=true")
-        data = json.loads(raw)
-        for review in data.get("items", []):
-            show_id = review.get("showId")
-            rating = review.get("rating")
-            if show_id is not None and rating:
-                ratings_by_show[show_id] = rating  # Serializd ratings are out of 10
-    except Exception as e:
-        print(f"[Serializd ratings] FAILED (continuing without ratings): {e}")
-
-    try:
-        page = 1
-        while True:
-            raw = fetch_url(f"{base}/watchedpage_v2/{page}?sort_by=date_desc")
-            data = json.loads(raw)
-            for show in data.get("items", []):
-                rating_10 = ratings_by_show.get(show.get("showId"))
-                rating_5 = round(rating_10 / 2, 1) if rating_10 else None
-                items.append({
-                    "title": show.get("showName", "Unknown"),
-                    "category": "TV Show",
-                    "rating": rating_5,
-                    "cover": show.get("bannerImage", ""),
-                    "link": "",
-                    "source": "Serializd",
-                })
-            total_pages = data.get("totalPages", 1)
-            if page >= total_pages:
-                break
-            page += 1
-            time.sleep(0.5)
-        print(f"[Serializd] fetched {len(items)} items")
-    except Exception as e:
-        print(f"[Serializd] FAILED: {e}")
-    return items
-
-
-# ---------------------------------------------------------------------------
-# 5b. SERIALIZD MANUAL FALLBACK — a safety net in case the unofficial API
-#     above is ever unreachable again. Add entries to docs/serializd_manual.json
-#     by hand and they'll show up in the gallery alongside the automated ones.
-#     Format: [{"title": "Show Name", "rating": 4.5, "cover": "https://..."}]
-# ---------------------------------------------------------------------------
-def fetch_serializd_manual():
-    items = []
-    path = "docs/serializd_manual.json"
-    if not os.path.exists(path):
-        return items
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            manual_entries = json.load(f)
-        for entry in manual_entries:
-            items.append({
-                "title": entry.get("title", "Untitled"),
-                "category": "TV Show",
-                "rating": safe_float(entry.get("rating")),
-                "cover": entry.get("cover", ""),
-                "link": entry.get("link", ""),
-                "source": "Serializd (manual)",
-            })
-        if items:
-            print(f"[Serializd manual] loaded {len(items)} items")
-    except Exception as e:
-        print(f"[Serializd manual] FAILED: {e}")
-    return items
-
-
-# ---------------------------------------------------------------------------
-# 6. MYDRAMALIST (Asian Drama) — unofficial scraper API (kuryana)
+# 5. MYDRAMALIST (Asian Drama) — unofficial scraper API (kuryana)
 # ---------------------------------------------------------------------------
 def _key_matches(key, *needles):
     key_lower = key.lower()
@@ -380,10 +301,6 @@ def main():
     all_items += fetch_anilist("ANIME")
     all_items += fetch_anilist("MANGA")
     all_items += fetch_goodreads()
-    serializd_items = fetch_serializd()
-    serializd_titles = {i["title"] for i in serializd_items}
-    all_items += serializd_items
-    all_items += [i for i in fetch_serializd_manual() if i["title"] not in serializd_titles]
     all_items += fetch_mydramalist()
 
     output = {
