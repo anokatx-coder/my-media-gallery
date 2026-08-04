@@ -109,6 +109,31 @@
   #search:focus { border-color: var(--brass-dim); }
   #search::placeholder { color: var(--paper-dim); }
 
+  #sort {
+    background: var(--surface);
+    border: 1px solid var(--card-border);
+    color: var(--paper);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    padding: 9px 12px;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+  }
+  #sort:focus { border-color: var(--brass-dim); }
+
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 0.75rem;
+    color: var(--paper-dim);
+    cursor: pointer;
+    user-select: none;
+  }
+  .checkbox-label input { accent-color: var(--brass); cursor: pointer; }
+
   #count {
     max-width: 1100px;
     margin: 20px auto 0;
@@ -238,6 +263,19 @@
 <div class="controls" id="tabs"></div>
 <div class="controls">
   <input type="text" id="search" placeholder="search titles…">
+  <select id="sort">
+    <option value="date-desc">Recently logged</option>
+    <option value="date-asc">Oldest logged</option>
+    <option value="default">Default order</option>
+    <option value="title-asc">Title (A–Z)</option>
+    <option value="title-desc">Title (Z–A)</option>
+    <option value="rating-desc">Rating (high to low)</option>
+    <option value="rating-asc">Rating (low to high)</option>
+  </select>
+  <label class="checkbox-label">
+    <input type="checkbox" id="hide-unrated">
+    hide unrated
+  </label>
 </div>
 
 <div id="count"></div>
@@ -254,6 +292,8 @@ const STAMP_ABBR = {
 let allItems = [];
 let activeCategory = "All";
 let searchTerm = "";
+let sortMode = "date-desc";
+let hideUnrated = false;
 
 function renderTabs() {
   const tabsEl = document.getElementById("tabs");
@@ -282,8 +322,31 @@ function renderGrid() {
   const filtered = allItems.filter(item => {
     const matchesCategory = activeCategory === "All" || item.category === activeCategory;
     const matchesSearch = item.title.toLowerCase().includes(searchTerm.toLowerCase());
-    return matchesCategory && matchesSearch;
+    const matchesRated = !hideUnrated || (item.rating !== null && item.rating !== undefined);
+    return matchesCategory && matchesSearch && matchesRated;
   });
+
+  const sorters = {
+    "default": null,
+    "date-desc": (a, b) => {
+      if (!a.date && !b.date) return 0;
+      if (!a.date) return 1;
+      if (!b.date) return -1;
+      return new Date(b.date) - new Date(a.date);
+    },
+    "date-asc": (a, b) => {
+      if (!a.date && !b.date) return 0;
+      if (!a.date) return 1;
+      if (!b.date) return -1;
+      return new Date(a.date) - new Date(b.date);
+    },
+    "title-asc": (a, b) => a.title.localeCompare(b.title),
+    "title-desc": (a, b) => b.title.localeCompare(a.title),
+    "rating-desc": (a, b) => (b.rating ?? -1) - (a.rating ?? -1),
+    "rating-asc": (a, b) => (a.rating ?? 999) - (b.rating ?? 999),
+  };
+  const sorter = sorters[sortMode];
+  if (sorter) filtered.sort(sorter);
 
   countEl.textContent = `${filtered.length} item${filtered.length === 1 ? "" : "s"}`;
 
@@ -350,6 +413,16 @@ async function loadData() {
 
 document.getElementById("search").addEventListener("input", (e) => {
   searchTerm = e.target.value;
+  renderGrid();
+});
+
+document.getElementById("sort").addEventListener("change", (e) => {
+  sortMode = e.target.value;
+  renderGrid();
+});
+
+document.getElementById("hide-unrated").addEventListener("change", (e) => {
+  hideUnrated = e.target.checked;
   renderGrid();
 });
 
