@@ -8,7 +8,9 @@ docs/data.json for the gallery website to read.
 You should not need to edit this file except for the USERNAMES section below.
 """
 
+import csv
 import json
+import os
 import re
 import time
 import xml.etree.ElementTree as ET
@@ -28,6 +30,14 @@ GOODREADS_USER_ID = "8067565"
 # where new books land; the rest are your archived backlog.
 GOODREADS_SHELVES = ["read", "read-1", "read-2", "read-3", "read-4", "read-5", "read-6", "read-7", "read-8"]
 MYDRAMALIST_USERNAME = "anokatx"
+
+# One-time (or occasional) backfill: Letterboxd's RSS feed only shows your
+# most recent 50 diary entries, so older films are filled in from the CSV
+# inside the "Export data" zip you download from
+# https://letterboxd.com/settings/data/export — drop diary.csv at this path
+# in the repo. Re-download it whenever you want to refresh older entries;
+# new logs always keep flowing in automatically via RSS regardless.
+LETTERBOXD_DIARY_CSV_PATH = "letterboxd_export/diary.csv"
 
 # ====================================================================
 
@@ -57,6 +67,16 @@ def parse_rfc822_date(date_str):
         return parsedate_to_datetime(date_str).astimezone(timezone.utc).isoformat()
     except Exception:
         return None
+
+
+def extract_film_slug(url):
+    """Pulls the film's unique slug out of any Letterboxd film URL, so we can
+    match the same film between the live RSS feed and the exported CSV even
+    though those two sources format their links differently."""
+    if not url:
+        return None
+    match = re.search(r"/film/([^/]+)/", url)
+    return match.group(1) if match else None
 
 
 # ---------------------------------------------------------------------------
@@ -109,10 +129,66 @@ def fetch_letterboxd():
                 "link": link,
                 "date": date,
                 "source": "Letterboxd",
+                "_slug": extract_film_slug(link),
             })
         print(f"[Letterboxd] fetched {len(items)} items")
     except Exception as e:
         print(f"[Letterboxd] FAILED: {e}")
+    return items
+
+
+# ---------------------------------------------------------------------------
+# 1b. LETTERBOXD CSV BACKFILL — fills in films older than the RSS feed's
+#     50-item cap, using the diary.csv from your official data export.
+# ---------------------------------------------------------------------------
+def fetch_letterboxd_csv_backfill():
+    items = []
+    if not os.path.exists(LETTERBOXD_DIARY_CSV_PATH):
+        return items
+    try:
+        with open(LETTERBOXD_DIARY_CSV_PATH, newline="", encoding="utf-8-sig") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                title = (row.get("Name") or "").strip()
+                year = (row.get("Year") or "").strip()
+                rating_5 = safe_float((row.get("Rating") or "").strip())
+                uri = (row.get("Letterboxd URI") or "").strip()
+                watched_date_raw = (row.get("Watched Date") or row.get("Date") or "").strip()
+
+                if not title:
+                    continue
+
+                date = None
+                if watched_date_raw:
+                    try:
+                        date = datetime.fromisoformat(watched_date_raw).replace(tzinfo=timezone.utc).isoformat()
+                    except ValueError:
+                        date = None
+
+                items.append({
+                    "title": f"{title} ({year})" if year else title,
+                    "category": "Movie",
+                    "rating": rating_5,
+                    "cover": "",  # not included in the export; only RSS entries have a cover
+                    "link": uri,
+                    "date": date,
+                    "source": "Letterboxd (export)",
+                    "_slug": extract_film_slug(uri),
+                })
+
+        # The diary logs every watch, so a rewatched film appears more than
+        # once — keep only the most recently watched entry per film.
+        best_by_slug = {}
+        for item in items:
+            key = item["_slug"] or item["title"]
+            existing = best_by_slug.get(key)
+            if existing is None or (item["date"] or "") > (existing["date"] or ""):
+                best_by_slug[key] = item
+        items = list(best_by_slug.values())
+
+        print(f"[Letterboxd export] loaded {len(items)} unique films from {LETTERBOXD_DIARY_CSV_PATH}")
+    except Exception as e:
+        print(f"[Letterboxd export] FAILED: {e}")
     return items
 
 
@@ -353,7 +429,17 @@ def fetch_mydramalist():
 # ---------------------------------------------------------------------------
 def main():
     all_items = []
-    all_items += fetch_letterboxd()
+
+    letterboxd_recent = fetch_letterboxd()
+    letterboxd_backfill = fetch_letterboxd_csv_backfill()
+    recent_slugs = {i["_slug"] for i in letterboxd_recent if i.get("_slug")}
+    letterboxd_combined = letterboxd_recent + [
+        i for i in letterboxd_backfill if i.get("_slug") not in recent_slugs
+    ]
+    for item in letterboxd_combined:
+        item.pop("_slug", None)  # internal-only field, not needed in the output
+    all_items += letterboxd_combined
+
     all_items += fetch_anilist("ANIME")
     all_items += fetch_anilist("MANGA")
     all_items += fetch_goodreads()
