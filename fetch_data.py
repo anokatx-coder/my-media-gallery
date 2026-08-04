@@ -22,7 +22,11 @@ import requests
 LETTERBOXD_USERNAME = "anokatx"
 ANILIST_USERNAME = "anokatx"
 GOODREADS_USER_ID = "8067565"
-GOODREADS_SHELF = "read"          # the shelf name you use for logged/finished books
+# Goodreads' RSS feed only returns the ~100 most recent items PER SHELF, so
+# your books are split across several shelves to get around that. List every
+# shelf that should show up in the gallery — "read" is your active shelf
+# where new books land; the rest are your archived backlog.
+GOODREADS_SHELVES = ["read", "read-1", "read-2", "read-3", "read-4", "read-5", "read-6", "read-7", "read-8"]
 MYDRAMALIST_USERNAME = "anokatx"
 
 # ====================================================================
@@ -208,11 +212,12 @@ def fetch_anilist(media_type):
 
 
 # ---------------------------------------------------------------------------
-# 4. GOODREADS (Books) — shelf RSS feed
+# 4. GOODREADS (Books) — shelf RSS feeds (looped across multiple shelves,
+#    since each shelf's feed only returns its ~100 most recent items)
 # ---------------------------------------------------------------------------
-def fetch_goodreads():
+def fetch_goodreads_shelf(shelf_name):
     items = []
-    url = f"https://www.goodreads.com/review/list_rss/{GOODREADS_USER_ID}?shelf={GOODREADS_SHELF}"
+    url = f"https://www.goodreads.com/review/list_rss/{GOODREADS_USER_ID}?shelf={shelf_name}"
     try:
         raw = fetch_url(url)
         root = ET.fromstring(raw)
@@ -239,9 +244,25 @@ def fetch_goodreads():
                 "date": parse_rfc822_date(pub_date),
                 "source": "Goodreads",
             })
-        print(f"[Goodreads] fetched {len(items)} items")
+        print(f"[Goodreads:{shelf_name}] fetched {len(items)} items")
     except Exception as e:
-        print(f"[Goodreads] FAILED: {e}")
+        print(f"[Goodreads:{shelf_name}] FAILED: {e}")
+    return items
+
+
+def fetch_goodreads():
+    all_shelf_items = []
+    for shelf_name in GOODREADS_SHELVES:
+        all_shelf_items += fetch_goodreads_shelf(shelf_name)
+
+    # A book could technically appear on two shelves at once (e.g. mid-move
+    # between shelves), so dedupe by its Goodreads link before returning.
+    deduped = {}
+    for item in all_shelf_items:
+        deduped[item["link"] or item["title"]] = item
+
+    items = list(deduped.values())
+    print(f"[Goodreads] {len(items)} unique items across {len(GOODREADS_SHELVES)} shelves")
     return items
 
 
