@@ -13,6 +13,7 @@ import re
 import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 
 import requests
 
@@ -44,6 +45,16 @@ def safe_float(value, default=None):
         return default
 
 
+def parse_rfc822_date(date_str):
+    """Used by Letterboxd's and Goodreads's RSS <pubDate> fields."""
+    if not date_str:
+        return None
+    try:
+        return parsedate_to_datetime(date_str).astimezone(timezone.utc).isoformat()
+    except Exception:
+        return None
+
+
 # ---------------------------------------------------------------------------
 # 1. LETTERBOXD (Movies) — official public RSS feed
 # ---------------------------------------------------------------------------
@@ -58,6 +69,8 @@ def fetch_letterboxd():
             title = entry.findtext("letterboxd:filmTitle", default="", namespaces=ns)
             year = entry.findtext("letterboxd:filmYear", default="", namespaces=ns)
             rating_raw = entry.findtext("letterboxd:memberRating", default="", namespaces=ns)
+            watched_date = entry.findtext("letterboxd:watchedDate", default="", namespaces=ns)
+            pub_date = entry.findtext("pubDate", default="")
             link = entry.findtext("link", default="")
             description = entry.findtext("description", default="") or ""
 
@@ -73,12 +86,24 @@ def fetch_letterboxd():
 
             rating_5 = safe_float(rating_raw)  # Letterboxd is already out of 5
 
+            # watchedDate (YYYY-MM-DD) is the date you logged it as watched;
+            # fall back to the RSS pubDate if that's ever missing.
+            date = None
+            if watched_date:
+                try:
+                    date = datetime.fromisoformat(watched_date).replace(tzinfo=timezone.utc).isoformat()
+                except ValueError:
+                    date = None
+            if not date:
+                date = parse_rfc822_date(pub_date)
+
             items.append({
                 "title": f"{title} ({year})" if year else title,
                 "category": "Movie",
                 "rating": rating_5,
                 "cover": cover,
                 "link": link,
+                "date": date,
                 "source": "Letterboxd",
             })
         print(f"[Letterboxd] fetched {len(items)} items")
@@ -143,6 +168,7 @@ def fetch_anilist(media_type):
           entries {
             score
             status
+            updatedAt
             media {
               title { romaji english }
               coverImage { large }
@@ -161,12 +187,18 @@ def fetch_anilist(media_type):
             for entry in lst["entries"]:
                 media = entry["media"]
                 title = media["title"]["english"] or media["title"]["romaji"]
+                updated_at = entry.get("updatedAt")
+                date = (
+                    datetime.fromtimestamp(updated_at, tz=timezone.utc).isoformat()
+                    if updated_at else None
+                )
                 items.append({
                     "title": title,
                     "category": category,
                     "rating": normalize_anilist_score(entry["score"], score_format),
                     "cover": media["coverImage"]["large"],
                     "link": media["siteUrl"],
+                    "date": date,
                     "source": "AniList",
                 })
         print(f"[AniList {category}] fetched {len(items)} items")
@@ -189,6 +221,7 @@ def fetch_goodreads():
             cover = entry.findtext("book_large_image_url") or entry.findtext("book_image_url") or ""
             rating_raw = entry.findtext("user_rating", default="0")
             link = entry.findtext("link", default="")
+            pub_date = entry.findtext("pubDate", default="")
 
             if not title:
                 continue
@@ -203,6 +236,7 @@ def fetch_goodreads():
                 "rating": rating,
                 "cover": cover,
                 "link": link,
+                "date": parse_rfc822_date(pub_date),
                 "source": "Goodreads",
             })
         print(f"[Goodreads] fetched {len(items)} items")
@@ -281,6 +315,7 @@ def fetch_mydramalist():
                 "rating": rating_5,
                 "cover": cover,
                 "link": link,
+                "date": None,  # this source doesn't expose a logged/added date
                 "source": "MyDramaList",
             })
         print(f"[MyDramaList] fetched {len(items)} items")
