@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-05T10:10:59.748078+00:00",
-  "count": 7591,
+  "updated_at": "2026-08-05T17:16:59.402834+00:00",
+  "count": 7592,
   "items": [
     {
       "title": "Spider-Man: Brand New Day (2026)",
@@ -61908,7 +61908,7 @@
       "title": "The Night Circus",
       "category": "Book",
       "rating": 5.0,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387124618l/9361589.jpg",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1785944734l/9361589._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/289283478?utm_medium=api&utm_source=rss",
       "date": "2026-08-04T08:11:58+00:00",
       "source": "Goodreads"
@@ -66790,6 +66790,15 @@
       "link": "https://www.goodreads.com/review/show/1132204606?utm_medium=api&utm_source=rss",
       "date": "2026-08-04T08:28:43+00:00",
       "source": "Goodreads"
+    },
+    {
+      "title": "Duty First, Kiss Later",
+      "category": "Asian Drama",
+      "rating": null,
+      "cover": "https://i.mydramalist.com/zBQv6W_4c.jpg?v=1",
+      "link": "https://mydramalist.com/811106-kiss-wa-sosa-no-ato-de",
+      "date": null,
+      "source": "MyDramaList"
     },
     {
       "title": "My Royal Nemesis",
