@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T14:09:11.825289+00:00",
+  "updated_at": "2026-08-08T17:22:00.234145+00:00",
   "count": 7549,
   "items": [
     {
@@ -42069,15 +42069,6 @@
       "source": "AniList"
     },
     {
-      "title": "Cherry Pink ni Sugar High",
-      "category": "Manga",
-      "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx199945-wkPULMzt1LKX.jpg",
-      "link": "https://anilist.co/manga/199945",
-      "date": "2026-07-13T11:01:57+00:00",
-      "source": "AniList"
-    },
-    {
       "title": "A Howl of the Heart",
       "category": "Manga",
       "rating": null,
@@ -57384,6 +57375,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx198520-Toxb3DSMP8wQ.png",
       "link": "https://anilist.co/manga/198520",
       "date": "2026-07-23T13:59:46+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Cherry Pink ni Sugar High",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx199945-wkPULMzt1LKX.jpg",
+      "link": "https://anilist.co/manga/199945",
+      "date": "2026-08-08T15:00:55+00:00",
       "source": "AniList"
     },
     {
