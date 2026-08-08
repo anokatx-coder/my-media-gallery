@@ -69,14 +69,12 @@ def parse_rfc822_date(date_str):
         return None
 
 
-def extract_film_slug(url):
-    """Pulls the film's unique slug out of any Letterboxd film URL, so we can
-    match the same film between the live RSS feed and the exported CSV even
-    though those two sources format their links differently."""
-    if not url:
-        return None
-    match = re.search(r"/film/([^/]+)/", url)
-    return match.group(1) if match else None
+def film_match_key(title, year):
+    """Title+year, normalized, used to recognize 'the same film' between the
+    RSS feed and the CSV export — more reliable than URL matching, since
+    Letterboxd's RSS <link> field uses short boxd.it links that don't
+    contain a matchable slug at all."""
+    return f"{title.strip().lower()}|{(year or '').strip()}"
 
 
 # ---------------------------------------------------------------------------
@@ -129,7 +127,7 @@ def fetch_letterboxd():
                 "link": link,
                 "date": date,
                 "source": "Letterboxd",
-                "_slug": extract_film_slug(link),
+                "_match_key": film_match_key(title, year),
             })
         print(f"[Letterboxd] fetched {len(items)} items")
     except Exception as e:
@@ -173,18 +171,18 @@ def fetch_letterboxd_csv_backfill():
                     "link": uri,
                     "date": date,
                     "source": "Letterboxd (export)",
-                    "_slug": extract_film_slug(uri),
+                    "_match_key": film_match_key(title, year),
                 })
 
         # The diary logs every watch, so a rewatched film appears more than
         # once — keep only the most recently watched entry per film.
-        best_by_slug = {}
+        best_by_key = {}
         for item in items:
-            key = item["_slug"] or item["title"]
-            existing = best_by_slug.get(key)
+            key = item["_match_key"]
+            existing = best_by_key.get(key)
             if existing is None or (item["date"] or "") > (existing["date"] or ""):
-                best_by_slug[key] = item
-        items = list(best_by_slug.values())
+                best_by_key[key] = item
+        items = list(best_by_key.values())
 
         print(f"[Letterboxd export] loaded {len(items)} unique films from {LETTERBOXD_DIARY_CSV_PATH}")
     except Exception as e:
@@ -302,7 +300,12 @@ def fetch_goodreads_shelf(shelf_name):
             cover = entry.findtext("book_large_image_url") or entry.findtext("book_image_url") or ""
             rating_raw = entry.findtext("user_rating", default="0")
             link = entry.findtext("link", default="")
-            pub_date = entry.findtext("pubDate", default="")
+            # NOTE: pubDate here is the BOOK's original publication date, not
+            # when you read it. user_read_at is the date you actually
+            # finished it; user_date_added is a fallback for books that
+            # don't have a read date set (e.g. still reading, or DNF).
+            read_at = entry.findtext("user_read_at", default="")
+            date_added = entry.findtext("user_date_added", default="")
 
             if not title:
                 continue
@@ -317,7 +320,7 @@ def fetch_goodreads_shelf(shelf_name):
                 "rating": rating,
                 "cover": cover,
                 "link": link,
-                "date": parse_rfc822_date(pub_date),
+                "date": parse_rfc822_date(read_at) or parse_rfc822_date(date_added),
                 "source": "Goodreads",
             })
         print(f"[Goodreads:{shelf_name}] fetched {len(items)} items")
@@ -432,12 +435,12 @@ def main():
 
     letterboxd_recent = fetch_letterboxd()
     letterboxd_backfill = fetch_letterboxd_csv_backfill()
-    recent_slugs = {i["_slug"] for i in letterboxd_recent if i.get("_slug")}
+    recent_keys = {i["_match_key"] for i in letterboxd_recent if i.get("_match_key")}
     letterboxd_combined = letterboxd_recent + [
-        i for i in letterboxd_backfill if i.get("_slug") not in recent_slugs
+        i for i in letterboxd_backfill if i.get("_match_key") not in recent_keys
     ]
     for item in letterboxd_combined:
-        item.pop("_slug", None)  # internal-only field, not needed in the output
+        item.pop("_match_key", None)  # internal-only field, not needed in the output
     all_items += letterboxd_combined
 
     all_items += fetch_anilist("ANIME")
