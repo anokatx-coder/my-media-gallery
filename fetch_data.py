@@ -39,6 +39,12 @@ MYDRAMALIST_USERNAME = "anokatx"
 # new logs always keep flowing in automatically via RSS regardless.
 LETTERBOXD_DIARY_CSV_PATH = "letterboxd_export/diary.csv"
 
+# Used only to fetch poster images for backfilled films (the CSV export
+# doesn't include any). Comes from a GitHub secret, never hardcoded here —
+# see the workflow file's "env:" section.
+TMDB_API_KEY = os.environ.get("TMDB_API_KEY", "")
+TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p/w500"
+
 # ====================================================================
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (personal media gallery script)"}
@@ -75,6 +81,28 @@ def film_match_key(title, year):
     Letterboxd's RSS <link> field uses short boxd.it links that don't
     contain a matchable slug at all."""
     return f"{title.strip().lower()}|{(year or '').strip()}"
+
+
+def fetch_tmdb_poster(title, year):
+    """Looks up a film's poster on TMDb by title+year. Returns "" (not an
+    error) if no key is set, nothing matches, or the lookup fails — a
+    missing poster should never stop the rest of the pipeline."""
+    if not TMDB_API_KEY:
+        return ""
+    try:
+        params = {"api_key": TMDB_API_KEY, "query": title}
+        if year:
+            params["year"] = year
+        resp = requests.get(
+            "https://api.themoviedb.org/3/search/movie", params=params, timeout=15
+        )
+        resp.raise_for_status()
+        results = resp.json().get("results", [])
+        if results and results[0].get("poster_path"):
+            return TMDB_IMAGE_BASE + results[0]["poster_path"]
+    except Exception:
+        pass
+    return ""
 
 
 # ---------------------------------------------------------------------------
@@ -172,6 +200,8 @@ def fetch_letterboxd_csv_backfill():
                     "date": date,
                     "source": "Letterboxd (export)",
                     "_match_key": film_match_key(title, year),
+                    "_title": title,
+                    "_year": year,
                 })
 
         # The diary logs every watch, so a rewatched film appears more than
@@ -183,6 +213,23 @@ def fetch_letterboxd_csv_backfill():
             if existing is None or (item["date"] or "") > (existing["date"] or ""):
                 best_by_key[key] = item
         items = list(best_by_key.values())
+
+        # Look up a poster for each one via TMDb (only runs if TMDB_API_KEY
+        # is set — otherwise these just stay coverless, same as before).
+        if TMDB_API_KEY:
+            found = 0
+            for item in items:
+                item["cover"] = fetch_tmdb_poster(item["_title"], item["_year"])
+                if item["cover"]:
+                    found += 1
+                time.sleep(0.1)  # be polite to TMDb's free tier
+            print(f"[Letterboxd export] found posters for {found}/{len(items)} films via TMDb")
+        else:
+            print("[Letterboxd export] TMDB_API_KEY not set — backfilled films will have no cover")
+
+        for item in items:
+            item.pop("_title", None)
+            item.pop("_year", None)
 
         print(f"[Letterboxd export] loaded {len(items)} unique films from {LETTERBOXD_DIARY_CSV_PATH}")
     except Exception as e:
