@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-10T08:35:45.998062+00:00",
-  "count": 7552,
+  "updated_at": "2026-08-10T11:36:47.045583+00:00",
+  "count": 7555,
   "items": [
     {
       "title": "Spider-Man: Brand New Day (2026)",
@@ -42672,6 +42672,15 @@
       "source": "AniList"
     },
     {
+      "title": "Suki de Gomen.",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx100509-Lt3eRve0zIgH.png",
+      "link": "https://anilist.co/manga/100509",
+      "date": "2026-08-10T11:08:26+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "Glasses With a Chance of Delinquent",
       "category": "Manga",
       "rating": 4.5,
@@ -56168,7 +56177,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx185957-z0cHkNUYywyW.jpg",
       "link": "https://anilist.co/manga/185957",
-      "date": "2026-02-08T12:41:05+00:00",
+      "date": "2026-08-10T11:06:23+00:00",
       "source": "AniList"
     },
     {
@@ -66441,6 +66450,15 @@
       "source": "MyDramaList"
     },
     {
+      "title": "Galileo Season 2",
+      "category": "Asian Drama",
+      "rating": null,
+      "cover": "https://i.mydramalist.com/0Pv6K_4c.jpg?v=1",
+      "link": "https://mydramalist.com/6730-galileo-2",
+      "date": null,
+      "source": "MyDramaList"
+    },
+    {
       "title": "My Royal Nemesis",
       "category": "Asian Drama",
       "rating": 4.5,
@@ -66869,6 +66887,15 @@
       "rating": 3.5,
       "cover": "https://i.mydramalist.com/QJXBqQ_4c.jpg?v=1",
       "link": "https://mydramalist.com/738683-no-secret",
+      "date": null,
+      "source": "MyDramaList"
+    },
+    {
+      "title": "Galileo",
+      "category": "Asian Drama",
+      "rating": 4.0,
+      "cover": "https://i.mydramalist.com/WDrED_4c.jpg?v=1",
+      "link": "https://mydramalist.com/278-galileo",
       "date": null,
       "source": "MyDramaList"
     },
