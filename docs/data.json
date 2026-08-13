@@ -1,7 +1,16 @@
 {
-  "updated_at": "2026-08-13T11:17:33.267112+00:00",
-  "count": 7559,
+  "updated_at": "2026-08-13T15:36:36.982245+00:00",
+  "count": 7562,
   "items": [
+    {
+      "title": "Get Out (2017)",
+      "category": "Movie",
+      "rating": 4.0,
+      "cover": "https://a.ltrbxd.com/resized/film-poster/3/5/3/1/1/7/353117-get-out-0-600-0-900-crop.jpg?v=136acec030",
+      "link": "https://letterboxd.com/anokatx/film/get-out-2017/",
+      "date": "2026-08-13T00:00:00+00:00",
+      "source": "Letterboxd"
+    },
     {
       "title": "The Last House (2026)",
       "category": "Movie",
@@ -441,15 +450,6 @@
       "cover": "https://a.ltrbxd.com/resized/film-poster/1/0/4/1/7/7/9/1041779-can-i-buy-your-love-from-a-vending-machine-0-600-0-900-crop.jpg?v=e78f4f2d86",
       "link": "https://letterboxd.com/anokatx/film/can-i-buy-your-love-from-a-vending-machine/",
       "date": "2025-09-07T00:00:00+00:00",
-      "source": "Letterboxd"
-    },
-    {
-      "title": "Sinners (2025)",
-      "category": "Movie",
-      "rating": 4.5,
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/1/6/6/0/0/1116600-sinners-2025-0-600-0-900-crop.jpg?v=5996b7d555",
-      "link": "https://letterboxd.com/anokatx/film/sinners-2025/",
-      "date": "2025-09-02T00:00:00+00:00",
       "source": "Letterboxd"
     },
     {
@@ -1404,6 +1404,15 @@
       "cover": "https://image.tmdb.org/t/p/w500/e7jStO2xfBUAUK37LbINHd1qtgy.jpg",
       "link": "https://boxd.it/aUtBGZ",
       "date": "2025-08-30T00:00:00+00:00",
+      "source": "Letterboxd (export)"
+    },
+    {
+      "title": "Sinners (2025)",
+      "category": "Movie",
+      "rating": 4.5,
+      "cover": "https://image.tmdb.org/t/p/w500/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
+      "link": "https://boxd.it/aWJMvj",
+      "date": "2025-09-02T00:00:00+00:00",
       "source": "Letterboxd (export)"
     },
     {
@@ -6669,6 +6678,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx117629-JuWlrWhLmNvp.jpg",
       "link": "https://anilist.co/manga/117629",
       "date": "2023-05-31T14:46:42+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "The King's Beast",
+      "category": "Manga",
+      "rating": 4.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx107544-r0fa0H1KDoOD.png",
+      "link": "https://anilist.co/manga/107544",
+      "date": "2026-08-13T12:52:24+00:00",
       "source": "AniList"
     },
     {
@@ -30594,6 +30612,15 @@
       "source": "AniList"
     },
     {
+      "title": "Suki tte Ittekurete mo Ii yo?",
+      "category": "Manga",
+      "rating": 4.0,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx176171-ourcVBl9PyRA.jpg",
+      "link": "https://anilist.co/manga/176171",
+      "date": "2026-08-13T14:44:38+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "A Man and His Cat",
       "category": "Manga",
       "rating": null,
@@ -42672,6 +42699,15 @@
       "source": "AniList"
     },
     {
+      "title": "Dazzling Spring Days",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx198674-NlQIpGVlfa3l.jpg",
+      "link": "https://anilist.co/manga/198674",
+      "date": "2026-08-13T11:58:48+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "Glasses With a Chance of Delinquent",
       "category": "Manga",
       "rating": 4.5,
@@ -53643,15 +53679,6 @@
       "source": "AniList"
     },
     {
-      "title": "The King's Beast",
-      "category": "Manga",
-      "rating": 4.5,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx107544-r0fa0H1KDoOD.png",
-      "link": "https://anilist.co/manga/107544",
-      "date": "2026-07-31T12:18:22+00:00",
-      "source": "AniList"
-    },
-    {
       "title": "Urenai Mangaka to Sewaki no Onryou-san",
       "category": "Manga",
       "rating": null,
@@ -59210,7 +59237,7 @@
       "rating": 4.5,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx107544-r0fa0H1KDoOD.png",
       "link": "https://anilist.co/manga/107544",
-      "date": "2026-07-31T12:18:22+00:00",
+      "date": "2026-08-13T12:52:24+00:00",
       "source": "AniList"
     },
     {
