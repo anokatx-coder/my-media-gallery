@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-13T05:54:55.365084+00:00",
-  "count": 7558,
+  "updated_at": "2026-08-13T11:17:33.267112+00:00",
+  "count": 7559,
   "items": [
     {
       "title": "The Last House (2026)",
@@ -60168,6 +60168,15 @@
       "source": "AniList"
     },
     {
+      "title": "The Dark Forest (Remembrance of Earth’s Past, #2)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1412064931l/23168817.jpg",
+      "link": "https://www.goodreads.com/review/show/8826888536?utm_medium=api&utm_source=rss",
+      "date": "2026-08-13T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
       "title": "The Summer of the Serpent",
       "category": "Book",
       "rating": 4.0,
@@ -61056,15 +61065,6 @@
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543675364l/30753698.jpg",
       "link": "https://www.goodreads.com/review/show/1767172457?utm_medium=api&utm_source=rss",
       "date": "2016-10-21T00:00:00+00:00",
-      "source": "Goodreads"
-    },
-    {
-      "title": "Fairy Tales for the Disillusioned: Enchanted Stories from the French Decadent Tradition (Oddly Modern Fairy Tales)",
-      "category": "Book",
-      "rating": 4.0,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462162763l/29452498.jpg",
-      "link": "https://www.goodreads.com/review/show/1767197254?utm_medium=api&utm_source=rss",
-      "date": "2016-10-01T00:00:00+00:00",
       "source": "Goodreads"
     },
     {
@@ -65925,6 +65925,15 @@
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423241485l/66559.jpg",
       "link": "https://www.goodreads.com/review/show/864640599?utm_medium=api&utm_source=rss",
       "date": "2014-04-17T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Fairy Tales for the Disillusioned: Enchanted Stories from the French Decadent Tradition (Oddly Modern Fairy Tales)",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462162763l/29452498.jpg",
+      "link": "https://www.goodreads.com/review/show/1767197254?utm_medium=api&utm_source=rss",
+      "date": "2016-10-01T00:00:00+00:00",
       "source": "Goodreads"
     },
     {
