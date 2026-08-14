@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-14T11:13:29.355554+00:00",
-  "count": 7563,
+  "updated_at": "2026-08-14T15:12:30.533539+00:00",
+  "count": 7565,
   "items": [
     {
       "title": "Us (2019)",
@@ -11007,6 +11007,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx99493-Cm6H7pvagZIg.jpg",
       "link": "https://anilist.co/manga/99493",
       "date": "2023-05-31T14:46:43+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "New Beginnings",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx37321-RlTjPVtAXUok.png",
+      "link": "https://anilist.co/manga/37321",
+      "date": "2026-08-14T13:23:38+00:00",
       "source": "AniList"
     },
     {
@@ -30630,6 +30639,24 @@
       "source": "AniList"
     },
     {
+      "title": "Quit Laughing, Shijima",
+      "category": "Manga",
+      "rating": 4.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx214548-e2p84nYMgAUR.jpg",
+      "link": "https://anilist.co/manga/214548",
+      "date": "2026-08-14T11:37:34+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Rockabye Dear",
+      "category": "Manga",
+      "rating": 4.0,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx122276-807ZyvBYZtMh.png",
+      "link": "https://anilist.co/manga/122276",
+      "date": "2026-08-14T12:33:29+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "A Man and His Cat",
       "category": "Manga",
       "rating": null,
@@ -33461,15 +33488,6 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b34895-lw4YX11vtRsR.jpg",
       "link": "https://anilist.co/manga/34895",
-      "date": "2023-05-31T14:46:43+00:00",
-      "source": "AniList"
-    },
-    {
-      "title": "New Beginnings",
-      "category": "Manga",
-      "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx37321-RlTjPVtAXUok.png",
-      "link": "https://anilist.co/manga/37321",
       "date": "2023-05-31T14:46:43+00:00",
       "source": "AniList"
     },
@@ -47363,10 +47381,10 @@
     {
       "title": "New Beginnings",
       "category": "Manga",
-      "rating": null,
+      "rating": 3.5,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx37321-RlTjPVtAXUok.png",
       "link": "https://anilist.co/manga/37321",
-      "date": "2023-05-31T14:46:43+00:00",
+      "date": "2026-08-14T13:23:38+00:00",
       "source": "AniList"
     },
     {
@@ -56609,7 +56627,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx180955-xcm7gOXg3dZ6.jpg",
       "link": "https://anilist.co/manga/180955",
-      "date": "2026-07-31T14:03:27+00:00",
+      "date": "2026-08-14T12:30:25+00:00",
       "source": "AniList"
     },
     {
