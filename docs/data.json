@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-15T09:03:42.642034+00:00",
-  "count": 7565,
+  "updated_at": "2026-08-15T13:43:00.962234+00:00",
+  "count": 7566,
   "items": [
     {
       "title": "Us (2019)",
@@ -30654,6 +30654,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx122276-807ZyvBYZtMh.png",
       "link": "https://anilist.co/manga/122276",
       "date": "2026-08-14T12:33:29+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Love and Baseball",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx90859-oUeYUDSdtFvi.jpg",
+      "link": "https://anilist.co/manga/90859",
+      "date": "2026-08-15T13:34:24+00:00",
       "source": "AniList"
     },
     {
