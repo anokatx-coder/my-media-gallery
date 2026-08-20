@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-20T09:59:48.898913+00:00",
-  "count": 7572,
+  "updated_at": "2026-08-20T14:18:48.059481+00:00",
+  "count": 7573,
   "items": [
     {
       "title": "Us (2019)",
@@ -30693,6 +30693,15 @@
       "source": "AniList"
     },
     {
+      "title": "Sora and Hara",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx49570-79m0bkxUhYq8.png",
+      "link": "https://anilist.co/manga/49570",
+      "date": "2026-08-20T11:26:34+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "A Man and His Cat",
       "category": "Manga",
       "rating": null,
@@ -57741,7 +57750,7 @@
       "title": "Garden in the Closet",
       "category": "Manga",
       "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx210725-rrqsQwVCxpE7.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx210725-JK2kAnAGAUXz.jpg",
       "link": "https://anilist.co/manga/210725",
       "date": "2026-08-02T15:05:49+00:00",
       "source": "AniList"
@@ -66597,7 +66606,7 @@
       "title": "Duty First, Kiss Later",
       "category": "Asian Drama",
       "rating": null,
-      "cover": "",
+      "cover": "https://i.mydramalist.com/zBQv6W_4c.jpg?v=1",
       "link": "https://mydramalist.com/811106-kiss-wa-sosa-no-ato-de",
       "date": null,
       "source": "MyDramaList"
@@ -66606,7 +66615,7 @@
       "title": "Galileo Season 2",
       "category": "Asian Drama",
       "rating": null,
-      "cover": "",
+      "cover": "https://i.mydramalist.com/0Pv6K_4c.jpg?v=1",
       "link": "https://mydramalist.com/6730-galileo-2",
       "date": null,
       "source": "MyDramaList"
@@ -67209,7 +67218,7 @@
       "title": "Love Next Door",
       "category": "Asian Drama",
       "rating": 4.0,
-      "cover": "https://i.mydramalist.com/x4ngkw_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/758259-mom-s-friend-s-son",
       "date": null,
       "source": "MyDramaList"
