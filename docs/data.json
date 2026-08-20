@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T03:17:15.852514+00:00",
+  "updated_at": "2026-08-20T05:24:36.559348+00:00",
   "count": 7572,
   "items": [
     {
@@ -870,7 +870,7 @@
       "title": "The First Slam Dunk (2022)",
       "category": "Movie",
       "rating": 4.5,
-      "cover": "https://image.tmdb.org/t/p/w500/7i3EBXY87HdHagCoFbmjHQ8DlkG.jpg",
+      "cover": "https://image.tmdb.org/t/p/w500/yq4tSiYvfGw150Ntq8NbsFZ12En.jpg",
       "link": "https://boxd.it/6GEpn1",
       "date": "2024-06-16T00:00:00+00:00",
       "source": "Letterboxd (export)"
@@ -66804,7 +66804,7 @@
       "title": "Boys over Flowers",
       "category": "Asian Drama",
       "rating": 4.2,
-      "cover": "https://i.mydramalist.com/peoVE_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/2987-boys-over-flowers",
       "date": null,
       "source": "MyDramaList"
