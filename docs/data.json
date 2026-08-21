@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-20T21:06:20.910961+00:00",
-  "count": 7573,
+  "updated_at": "2026-08-21T03:35:13.620658+00:00",
+  "count": 7574,
   "items": [
     {
       "title": "Us (2019)",
@@ -30684,6 +30684,15 @@
       "source": "AniList"
     },
     {
+      "title": "Tobari to Hari",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx198519-5z9fyjkCeJh5.jpg",
+      "link": "https://anilist.co/manga/198519",
+      "date": "2026-08-21T02:02:27+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "Fortune Favors a Smile",
       "category": "Manga",
       "rating": 4.0,
@@ -42771,15 +42780,6 @@
       "source": "AniList"
     },
     {
-      "title": "Tobari to Hari",
-      "category": "Manga",
-      "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx198519-5z9fyjkCeJh5.jpg",
-      "link": "https://anilist.co/manga/198519",
-      "date": "2026-08-16T11:35:11+00:00",
-      "source": "AniList"
-    },
-    {
       "title": "Hey Nagi, Be My Love",
       "category": "Manga",
       "rating": null,
@@ -42795,6 +42795,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx197518-aNeULjCy3aaK.jpg",
       "link": "https://anilist.co/manga/197518",
       "date": "2026-08-16T11:59:02+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Kyousuke-kun no Hatsukoi wa Mada",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx193108-Jwz6jOL73pVc.jpg",
+      "link": "https://anilist.co/manga/193108",
+      "date": "2026-08-20T23:39:42+00:00",
       "source": "AniList"
     },
     {
@@ -56681,7 +56690,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx187533-C15Td2XP91bs.jpg",
       "link": "https://anilist.co/manga/187533",
-      "date": "2026-07-19T13:25:00+00:00",
+      "date": "2026-08-21T00:22:50+00:00",
       "source": "AniList"
     },
     {
@@ -56924,7 +56933,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx195617-HEe7IMuaAM4q.jpg",
       "link": "https://anilist.co/manga/195617",
-      "date": "2025-12-18T10:35:37+00:00",
+      "date": "2026-08-21T02:39:59+00:00",
       "source": "AniList"
     },
     {
