@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-22T05:08:24.659352+00:00",
-  "count": 7575,
+  "updated_at": "2026-08-22T09:06:29.448185+00:00",
+  "count": 7576,
   "items": [
     {
       "title": "Us (2019)",
@@ -30726,6 +30726,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/17712.jpg",
       "link": "https://anilist.co/manga/47712",
       "date": "2026-08-21T13:07:44+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Nikushoku no Buka",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/102356-xqErAhlMW6IU.jpg",
+      "link": "https://anilist.co/manga/102356",
+      "date": "2026-08-22T06:28:05+00:00",
       "source": "AniList"
     },
     {
