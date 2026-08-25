@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-25T09:59:16.157083+00:00",
-  "count": 7582,
+  "updated_at": "2026-08-25T14:32:14.386146+00:00",
+  "count": 7584,
   "items": [
     {
       "title": "Us (2019)",
@@ -27143,7 +27143,7 @@
       "rating": 4.0,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx171985-MFr2T0tVFvxp.jpg",
       "link": "https://anilist.co/manga/171985",
-      "date": "2025-10-31T12:44:54+00:00",
+      "date": "2026-08-25T12:20:51+00:00",
       "source": "AniList"
     },
     {
@@ -42849,6 +42849,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx194293-mBpBoyFeOLzW.jpg",
       "link": "https://anilist.co/manga/194293",
       "date": "2026-08-23T09:55:06+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Kuchibiru kara Ai",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx188771-hrB3BoA9i7RV.jpg",
+      "link": "https://anilist.co/manga/188771",
+      "date": "2026-08-25T12:04:52+00:00",
       "source": "AniList"
     },
     {
@@ -60375,6 +60384,15 @@
       "source": "AniList"
     },
     {
+      "title": "It Came from Neverland",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1762232888l/241434036._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/8855859709?utm_medium=api&utm_source=rss",
+      "date": "2026-08-25T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
       "title": "The Dark Forest (Remembrance of Earth’s Past, #2)",
       "category": "Book",
       "rating": 5.0,
@@ -61263,15 +61281,6 @@
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348839833l/8032189.jpg",
       "link": "https://www.goodreads.com/review/show/1766656362?utm_medium=api&utm_source=rss",
       "date": "2016-10-02T00:00:00+00:00",
-      "source": "Goodreads"
-    },
-    {
-      "title": "The Impossible Fortress",
-      "category": "Book",
-      "rating": null,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543675364l/30753698.jpg",
-      "link": "https://www.goodreads.com/review/show/1767172457?utm_medium=api&utm_source=rss",
-      "date": "2016-10-21T00:00:00+00:00",
       "source": "Goodreads"
     },
     {
@@ -66132,6 +66141,15 @@
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423241485l/66559.jpg",
       "link": "https://www.goodreads.com/review/show/864640599?utm_medium=api&utm_source=rss",
       "date": "2014-04-17T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Impossible Fortress",
+      "category": "Book",
+      "rating": null,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543675364l/30753698.jpg",
+      "link": "https://www.goodreads.com/review/show/1767172457?utm_medium=api&utm_source=rss",
+      "date": "2016-10-21T00:00:00+00:00",
       "source": "Goodreads"
     },
     {
