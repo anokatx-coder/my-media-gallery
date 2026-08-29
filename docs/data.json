@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T08:07:39.470666+00:00",
+  "updated_at": "2026-08-29T12:08:23.578302+00:00",
   "count": 7584,
   "items": [
     {
@@ -42726,15 +42726,6 @@
       "source": "AniList"
     },
     {
-      "title": "Rock and Roll",
-      "category": "Manga",
-      "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx204297-w9Fu9HGLVv71.jpg",
-      "link": "https://anilist.co/manga/204297",
-      "date": "2026-07-23T13:21:50+00:00",
-      "source": "AniList"
-    },
-    {
       "title": "Yuge no Mukou ni Asa wo Miru",
       "category": "Manga",
       "rating": null,
@@ -57788,7 +57779,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx148324-8kA1SV8e4UP6.jpg",
       "link": "https://anilist.co/manga/148324",
-      "date": "2026-08-22T13:28:32+00:00",
+      "date": "2026-08-29T09:25:28+00:00",
       "source": "AniList"
     },
     {
@@ -57798,6 +57789,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx206104-Uw6rQPBYkwJY.jpg",
       "link": "https://anilist.co/manga/206104",
       "date": "2026-07-24T02:31:14+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Rock and Roll",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx204297-w9Fu9HGLVv71.jpg",
+      "link": "https://anilist.co/manga/204297",
+      "date": "2026-08-29T09:08:39+00:00",
       "source": "AniList"
     },
     {
