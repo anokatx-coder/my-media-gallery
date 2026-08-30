@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-29T20:08:15.951742+00:00",
-  "count": 7496,
+  "updated_at": "2026-08-30T00:08:33.462512+00:00",
+  "count": 7586,
   "items": [
     {
       "title": "Us (2019)",
@@ -1257,7 +1257,7 @@
       "title": "The Accountant² (2025)",
       "category": "Movie",
       "rating": 3.5,
-      "cover": "",
+      "cover": "https://image.tmdb.org/t/p/w500/lUvfTcOZiK0sdcX0WNLPbMyKjGm.jpg",
       "link": "https://boxd.it/9wubcH",
       "date": "2025-04-26T00:00:00+00:00",
       "source": "Letterboxd (export)"
@@ -1401,7 +1401,7 @@
       "title": "Love Untangled (2025)",
       "category": "Movie",
       "rating": 4.0,
-      "cover": "",
+      "cover": "https://image.tmdb.org/t/p/w500/e7jStO2xfBUAUK37LbINHd1qtgy.jpg",
       "link": "https://boxd.it/aUtBGZ",
       "date": "2025-08-30T00:00:00+00:00",
       "source": "Letterboxd (export)"
@@ -1419,7 +1419,7 @@
       "title": "Can I Buy Your Love from a Vending Machine? (2023)",
       "category": "Movie",
       "rating": 3.5,
-      "cover": "",
+      "cover": "https://image.tmdb.org/t/p/w500/8W4gb0AsYwwB0ktOedvjWe6WET2.jpg",
       "link": "https://boxd.it/aZVUmZ",
       "date": "2025-09-07T00:00:00+00:00",
       "source": "Letterboxd (export)"
@@ -7500,7 +7500,7 @@
       "source": "AniList"
     },
     {
-      "title": "Kanojo ga Kawaisugite Ubaenai",
+      "title": "She's too cute to take away",
       "category": "Manga",
       "rating": 4.0,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx110621-jWKEl9w8diiG.jpg",
@@ -27143,7 +27143,7 @@
       "rating": 4.0,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx171985-MFr2T0tVFvxp.jpg",
       "link": "https://anilist.co/manga/171985",
-      "date": "2026-08-25T12:20:51+00:00",
+      "date": "2026-08-29T23:14:13+00:00",
       "source": "AniList"
     },
     {
@@ -61299,6 +61299,816 @@
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348839833l/8032189.jpg",
       "link": "https://www.goodreads.com/review/show/1766656362?utm_medium=api&utm_source=rss",
       "date": "2016-10-02T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Hollow (Hercule Poirot, #25)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308815448l/16303.jpg",
+      "link": "https://www.goodreads.com/review/show/289297793?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:44+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "By the Pricking of My Thumbs (Tommy and Tuppence Mysteries, #4)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388799953l/594134.jpg",
+      "link": "https://www.goodreads.com/review/show/289297962?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:44+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Dumb Witness (Hercule Poirot, #17)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1295672288l/16344.jpg",
+      "link": "https://www.goodreads.com/review/show/289298034?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:44+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Death Comes as the End",
+      "category": "Book",
+      "rating": 2.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312058309l/121645.jpg",
+      "link": "https://www.goodreads.com/review/show/289297285?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:43+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Seven Dials Mystery (Superintendent Battle, #2)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351674470l/483103.jpg",
+      "link": "https://www.goodreads.com/review/show/289297430?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:43+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Sparkling Cyanide  (Colonel Race, #4)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407930593l/212622.jpg",
+      "link": "https://www.goodreads.com/review/show/289297592?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:43+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "They Came to Baghdad",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327965975l/140337.jpg",
+      "link": "https://www.goodreads.com/review/show/289297637?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:43+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Mrs. McGinty's Dead (Hercule Poirot, #29)",
+      "category": "Book",
+      "rating": 2.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924896l/121622.jpg",
+      "link": "https://www.goodreads.com/review/show/289296509?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:42+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Crooked House",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386923185l/16315.jpg",
+      "link": "https://www.goodreads.com/review/show/289296752?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:42+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Sad Cypress (Hercule Poirot, #21)",
+      "category": "Book",
+      "rating": 2.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1701946828l/433035._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/289297014?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:42+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "One, Two, Buckle My Shoe (Hercule Poirot, #22)",
+      "category": "Book",
+      "rating": 2.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1782477067l/16312._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/289297195?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:42+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "They Do It With Mirrors (Miss Marple, #5)",
+      "category": "Book",
+      "rating": 2.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389760572l/68930.jpg",
+      "link": "https://www.goodreads.com/review/show/289296274?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:41+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Clocks (Hercule Poirot, #39)",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375949009l/388018.jpg",
+      "link": "https://www.goodreads.com/review/show/289296346?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:41+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Why Didn't They Ask Evans?",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311988642l/102303.jpg",
+      "link": "https://www.goodreads.com/review/show/289296438?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:41+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Hickory Dickory Dock (Hercule Poirot, #31)",
+      "category": "Book",
+      "rating": 2.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328856031l/31299.jpg",
+      "link": "https://www.goodreads.com/review/show/289296477?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:41+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Murder on the Links (Hercule Poirot, #2)",
+      "category": "Book",
+      "rating": 2.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1384562979l/639787.jpg",
+      "link": "https://www.goodreads.com/review/show/289295821?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:40+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Lord Edgware Dies (Hercule Poirot, #9)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375949065l/215492.jpg",
+      "link": "https://www.goodreads.com/review/show/289295957?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:40+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "N or M? (Tommy & Tuppence Mysteries, #3)",
+      "category": "Book",
+      "rating": 2.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1295677628l/102313.jpg",
+      "link": "https://www.goodreads.com/review/show/289296020?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:40+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "After the Funeral (Hercule Poirot, #30)",
+      "category": "Book",
+      "rating": 2.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1384881992l/527744.jpg",
+      "link": "https://www.goodreads.com/review/show/289296071?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:40+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Thirteen Problems (Miss Marple, #0.5)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309305370l/31309.jpg",
+      "link": "https://www.goodreads.com/review/show/289296087?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:40+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Death in the Clouds (Hercule Poirot, #12)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1535193069l/16326.jpg",
+      "link": "https://www.goodreads.com/review/show/289295336?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:39+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "A Caribbean Mystery (Miss Marple, #9)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309280346l/31300.jpg",
+      "link": "https://www.goodreads.com/review/show/289295369?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:39+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "At Bertram's Hotel (Miss Marple, #10)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375949033l/16333.jpg",
+      "link": "https://www.goodreads.com/review/show/289295378?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:39+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Moving Finger (Miss Marple, #3)",
+      "category": "Book",
+      "rating": 2.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396227246l/16341.jpg",
+      "link": "https://www.goodreads.com/review/show/289295644?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:39+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Secret Adversary (Tommy and Tuppence Mysteries, #1)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331721280l/49596.jpg",
+      "link": "https://www.goodreads.com/review/show/289295184?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:38+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Peril at End House (Hercule Poirot, #8)",
+      "category": "Book",
+      "rating": 2.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327938128l/16424.jpg",
+      "link": "https://www.goodreads.com/review/show/289295203?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:38+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Big Four (Hercule Poirot, #5)",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1372506728l/16316.jpg",
+      "link": "https://www.goodreads.com/review/show/289295230?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:38+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Mystery of the Blue Train (Hercule Poirot, #6)",
+      "category": "Book",
+      "rating": 2.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389733972l/16335.jpg",
+      "link": "https://www.goodreads.com/review/show/289295265?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:38+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Five Little Pigs (Hercule Poirot, #24)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429422068l/121648.jpg",
+      "link": "https://www.goodreads.com/review/show/289295324?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:38+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Sleeping Murder (Miss Marple, #12)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308808135l/16300.jpg",
+      "link": "https://www.goodreads.com/review/show/289295079?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:37+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "A Pocket Full of Rye  (Miss Marple, #6)",
+      "category": "Book",
+      "rating": 2.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389760577l/834378.jpg",
+      "link": "https://www.goodreads.com/review/show/289295060?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:05+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Mirror Crack'd From Side to Side (Miss Marple, #8)",
+      "category": "Book",
+      "rating": 2.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466335226l/16372._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/289294916?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:04+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Murder in Mesopotamia (Hercule Poirot, #14)",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308808558l/16360.jpg",
+      "link": "https://www.goodreads.com/review/show/289294975?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:04+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Cat Among the Pigeons (Hercule Poirot, #36)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1275665326l/16342.jpg",
+      "link": "https://www.goodreads.com/review/show/289295006?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:04+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Cards on the Table (Hercule Poirot, #15)",
+      "category": "Book",
+      "rating": 2.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388208739l/16297.jpg",
+      "link": "https://www.goodreads.com/review/show/289295045?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:04+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Body in the Library (Miss Marple, #2)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389733809l/16319.jpg",
+      "link": "https://www.goodreads.com/review/show/289294840?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:03+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Evil Under the Sun (Hercule Poirot, #23)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386922974l/16305.jpg",
+      "link": "https://www.goodreads.com/review/show/289294854?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:03+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "A Murder Is Announced (Miss Marple, #4)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348508635l/16298.jpg",
+      "link": "https://www.goodreads.com/review/show/289294867?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:03+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "4:50 From Paddington (Miss Marple, #7)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1745538452l/140278._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/289294891?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:03+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Death on the Nile (Hercule Poirot, #18)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486837149l/131359._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/289294737?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:02+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Murder of Roger Ackroyd (Hercule Poirot, #4)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389734015l/16328.jpg",
+      "link": "https://www.goodreads.com/review/show/289294771?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:02+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Murder at the Vicarage (Miss Marple, #1)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388386575l/16331.jpg",
+      "link": "https://www.goodreads.com/review/show/289294792?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:02+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The A.B.C. Murders (Hercule Poirot, #13)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389733983l/16322.jpg",
+      "link": "https://www.goodreads.com/review/show/289294820?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:02+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Alchemist",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483412266l/865.jpg",
+      "link": "https://www.goodreads.com/review/show/289288417?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:01+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Harry Potter and the Deathly Hallows (Harry Potter, #7)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663805647l/136251.jpg",
+      "link": "https://www.goodreads.com/review/show/289291472?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:01+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Catching Fire (The Hunger Games, #2)",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722941l/6148028.jpg",
+      "link": "https://www.goodreads.com/review/show/289291526?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:01+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Complete Sherlock Holmes",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348815538l/188572.jpg",
+      "link": "https://www.goodreads.com/review/show/289292534?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:01+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Murder on the Orient Express (Hercule Poirot, #10)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388267702l/16304.jpg",
+      "link": "https://www.goodreads.com/review/show/289294706?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:01+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630547330l/5._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/289288022?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Harry Potter and the Half-Blood Prince (Harry Potter, #6)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587697303l/1._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/289288053?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Harry Potter and the Chamber of Secrets (Harry Potter, #2)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474169725l/15881._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/289288142?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Da Vinci Code (Robert Langdon, #2)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1720313229l/968._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/289288258?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:12:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Fairy-Tale Detectives (The Sisters Grimm, #1)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328341980l/11543564.jpg",
+      "link": "https://www.goodreads.com/review/show/289284432?utm_medium=api&utm_source=rss",
+      "date": "2013-10-23T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "City of Bones (The Mortal Instruments, #1)",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374697670l/6999776.jpg",
+      "link": "https://www.goodreads.com/review/show/289284693?utm_medium=api&utm_source=rss",
+      "date": "2012-06-16T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Girl Who Kicked the Hornet’s Nest (Millennium, #3)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327708260l/6892870.jpg",
+      "link": "https://www.goodreads.com/review/show/289285675?utm_medium=api&utm_source=rss",
+      "date": "2012-03-06T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Harry Potter and the Order of the Phoenix (Harry Potter, #5)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1786592302l/2._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/289287913?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:59+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Harry Potter and the Goblet of Fire (Harry Potter, #4)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554006152l/6._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/289287971?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:59+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Night Circus",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1786033865l/9361589._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/289283478?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:58+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Fellowship of the Ring (The Lord of the Rings, #1)",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1298411339l/34.jpg",
+      "link": "https://www.goodreads.com/review/show/289283495?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:58+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Lost Hero (The Heroes of Olympus, #1)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673374804l/7624272._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/289283724?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:58+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Time Traveler's Wife",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437728815l/14050.jpg",
+      "link": "https://www.goodreads.com/review/show/289283126?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:11+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "His Last Bow (Sherlock Holmes, #8)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1368588782l/754713.jpg",
+      "link": "https://www.goodreads.com/review/show/289282498?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:10+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Angels & Demons (Robert Langdon, #1)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1696691404l/960._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/289282852?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:10+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Mysterious Affair at Styles (Hercule Poirot, #1)",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386922393l/16343.jpg",
+      "link": "https://www.goodreads.com/review/show/289282877?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:10+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Lovely Bones",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457810586l/12232938.jpg",
+      "link": "https://www.goodreads.com/review/show/289283035?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:10+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Memoirs of a Geisha",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388367666l/930.jpg",
+      "link": "https://www.goodreads.com/review/show/289283090?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:10+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Girl With the Dragon Tattoo (Millennium, #1)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684638853l/2429135.jpg",
+      "link": "https://www.goodreads.com/review/show/289282204?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:09+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "And Then There Were None",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638425885l/16299._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/289282275?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:09+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Memoirs of Sherlock Holmes (Sherlock Holmes, #4)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529973409l/194373.jpg",
+      "link": "https://www.goodreads.com/review/show/289282314?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:09+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Poirot investiga (Hercule Poirot, #3)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1359475912l/140302.jpg",
+      "link": "https://www.goodreads.com/review/show/289282433?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:09+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "category": "Book",
+      "rating": null,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1272301328l/8096714.jpg",
+      "link": "https://www.goodreads.com/review/show/289280685?utm_medium=api&utm_source=rss",
+      "date": "2013-11-03T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Secret Garden",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327873635l/2998.jpg",
+      "link": "https://www.goodreads.com/review/show/289280870?utm_medium=api&utm_source=rss",
+      "date": "2013-11-23T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Charlotte's Web",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354811585l/16276256.jpg",
+      "link": "https://www.goodreads.com/review/show/289281007?utm_medium=api&utm_source=rss",
+      "date": "2013-05-15T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Little Prince",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367545443l/157993.jpg",
+      "link": "https://www.goodreads.com/review/show/289281414?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:08+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Alice in Wonderland",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391458382l/13023.jpg",
+      "link": "https://www.goodreads.com/review/show/289281516?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:08+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "I Am Number Four (Lorien Legacies, #1)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1305807140l/7747374.jpg",
+      "link": "https://www.goodreads.com/review/show/289280077?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:07+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Nick & Norah's Infinite Playlist",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1425188149l/25373.jpg",
+      "link": "https://www.goodreads.com/review/show/289280383?utm_medium=api&utm_source=rss",
+      "date": "2012-04-07T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Lord of the Flies",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1356913748l/6495605.jpg",
+      "link": "https://www.goodreads.com/review/show/289280461?utm_medium=api&utm_source=rss",
+      "date": "2013-05-01T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Lightning Thief (Percy Jackson and the Olympians, #1)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400602609l/28187.jpg",
+      "link": "https://www.goodreads.com/review/show/289279132?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:06+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Book Thief",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522157426l/19063._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/289279160?utm_medium=api&utm_source=rss",
+      "date": "2012-03-18T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "One False Note (The 39 Clues, #2)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1357211034l/3552023.jpg",
+      "link": "https://www.goodreads.com/review/show/289279222?utm_medium=api&utm_source=rss",
+      "date": "2012-04-10T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Inkheart (Inkworld, #1)",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1538266636l/28194.jpg",
+      "link": "https://www.goodreads.com/review/show/289279938?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:06+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Beyond the Grave (The 39 Clues, #4)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630644037l/5972040._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/289279060?utm_medium=api&utm_source=rss",
+      "date": "2012-04-12T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Emperor's Code (The 39 Clues, #8)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1357211054l/6545536.jpg",
+      "link": "https://www.goodreads.com/review/show/289279067?utm_medium=api&utm_source=rss",
+      "date": "2012-04-13T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Storm Warning (The 39 Clues, #9)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1357211087l/6697305.jpg",
+      "link": "https://www.goodreads.com/review/show/289279074?utm_medium=api&utm_source=rss",
+      "date": "2012-04-14T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Hunger Games (The Hunger Games, #1)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722975l/2767052._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/289278698?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:04+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/289278819?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:04+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Battle of the Labyrinth (Percy Jackson and the Olympians, #4)",
+      "category": "Book",
+      "rating": 4.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518607478l/2120932.jpg",
+      "link": "https://www.goodreads.com/review/show/289278906?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:04+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Black Circle (The 39 Clues, #5)",
+      "category": "Book",
+      "rating": 3.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1357211043l/6255144.jpg",
+      "link": "https://www.goodreads.com/review/show/289278965?utm_medium=api&utm_source=rss",
+      "date": "2012-04-12T00:00:00+00:00",
+      "source": "Goodreads"
+    },
+    {
+      "title": "The Last Olympian (Percy Jackson and the Olympians, #5)",
+      "category": "Book",
+      "rating": 5.0,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327924597l/4502507.jpg",
+      "link": "https://www.goodreads.com/review/show/289279020?utm_medium=api&utm_source=rss",
+      "date": "2026-08-04T08:11:04+00:00",
       "source": "Goodreads"
     },
     {
