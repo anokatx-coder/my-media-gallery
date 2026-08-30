@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-30T00:08:33.462512+00:00",
-  "count": 7586,
+  "updated_at": "2026-08-30T04:08:40.802643+00:00",
+  "count": 7588,
   "items": [
     {
       "title": "Us (2019)",
@@ -30789,6 +30789,24 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx198250-9Qw8rV3Vk1AU.jpg",
       "link": "https://anilist.co/manga/198250",
       "date": "2026-08-29T14:50:37+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "The Last Train",
+      "category": "Manga",
+      "rating": 4.0,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx113301-0bson9CGvMFW.jpg",
+      "link": "https://anilist.co/manga/113301",
+      "date": "2026-08-30T00:08:40+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Saishuu Densha: second time",
+      "category": "Manga",
+      "rating": 4.0,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx207910-O79z8RGthBtb.jpg",
+      "link": "https://anilist.co/manga/207910",
+      "date": "2026-08-30T00:26:50+00:00",
       "source": "AniList"
     },
     {
