@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-05T02:35:00.751752+00:00",
-  "count": 7595,
+  "updated_at": "2026-09-05T08:03:04.455622+00:00",
+  "count": 7598,
   "items": [
     {
       "title": "Us (2019)",
@@ -30843,6 +30843,24 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx114311-QJ3eoILq4PJh.jpg",
       "link": "https://anilist.co/manga/114311",
       "date": "2026-09-04T14:55:04+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Gang no Kaikata",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx118582-giKAGZ8ci68Q.jpg",
+      "link": "https://anilist.co/manga/118582",
+      "date": "2026-09-05T05:07:11+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Lingua Dolce",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx114161-htgPuAcql6u4.jpg",
+      "link": "https://anilist.co/manga/114161",
+      "date": "2026-09-05T05:31:01+00:00",
       "source": "AniList"
     },
     {
@@ -67319,6 +67337,15 @@
       "rating": 4.0,
       "cover": "https://i.mydramalist.com/EgNWW_4c.jpg?v=1",
       "link": "https://mydramalist.com/55675-the-ballot",
+      "date": null,
+      "source": "MyDramaList"
+    },
+    {
+      "title": "Just Friends?",
+      "category": "Asian Drama",
+      "rating": 3.5,
+      "cover": "https://i.mydramalist.com/MALZGc.jpg?v=1",
+      "link": "https://mydramalist.com/2544-just-friends",
       "date": null,
       "source": "MyDramaList"
     },
