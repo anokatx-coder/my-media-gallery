@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-05T11:49:04.652526+00:00",
-  "count": 7598,
+  "updated_at": "2026-09-05T14:30:06.121878+00:00",
+  "count": 7599,
   "items": [
     {
       "title": "Us (2019)",
@@ -26832,6 +26832,15 @@
       "source": "AniList"
     },
     {
+      "title": "Unmei Sura mo Iki wo Tomete",
+      "category": "Manga",
+      "rating": 4.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx192707-fldrQWTSq6Y9.jpg",
+      "link": "https://anilist.co/manga/192707",
+      "date": "2026-09-05T13:23:22+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "Shisen no Toriko",
       "category": "Manga",
       "rating": 4.0,
@@ -30861,6 +30870,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx114161-htgPuAcql6u4.jpg",
       "link": "https://anilist.co/manga/114161",
       "date": "2026-09-05T05:31:01+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Kishi-sama (Ikuseichuu) to Doukyo Shimasu",
+      "category": "Manga",
+      "rating": 4.0,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx152464-W8gruWsbZT6J.png",
+      "link": "https://anilist.co/manga/152464",
+      "date": "2026-09-05T12:14:10+00:00",
       "source": "AniList"
     },
     {
@@ -57114,15 +57132,6 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx135096-xW29rUVAAp61.jpg",
       "link": "https://anilist.co/manga/135096",
       "date": "2025-10-12T00:42:29+00:00",
-      "source": "AniList"
-    },
-    {
-      "title": "Unmei Sura mo Iki wo Tomete",
-      "category": "Manga",
-      "rating": 4.0,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx192707-fldrQWTSq6Y9.jpg",
-      "link": "https://anilist.co/manga/192707",
-      "date": "2025-11-10T01:23:59+00:00",
       "source": "AniList"
     },
     {
