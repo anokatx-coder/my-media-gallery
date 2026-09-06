@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-06T08:22:58.473603+00:00",
-  "count": 7599,
+  "updated_at": "2026-09-06T14:52:29.409088+00:00",
+  "count": 7601,
   "items": [
     {
       "title": "Us (2019)",
@@ -8697,7 +8697,7 @@
       "source": "AniList"
     },
     {
-      "title": "Stay Home: Love Come",
+      "title": "Stay Home: Love Kome",
       "category": "Manga",
       "rating": 3.5,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx122144-0v8SKJAWNMYj.jpg",
@@ -24249,7 +24249,7 @@
       "source": "AniList"
     },
     {
-      "title": "Kuro Majo to Zombie no Love Come",
+      "title": "Kuro Majo to Zombie no Love Kome",
       "category": "Manga",
       "rating": 3.5,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx149831-nSB1Gh3oxVkb.jpg",
@@ -45660,7 +45660,7 @@
       "source": "AniList"
     },
     {
-      "title": "Stay Home: Love Come",
+      "title": "Stay Home: Love Kome",
       "category": "Manga",
       "rating": 3.5,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx122144-0v8SKJAWNMYj.jpg",
@@ -66855,6 +66855,15 @@
       "source": "MyDramaList"
     },
     {
+      "title": "A First Love Story",
+      "category": "Asian Drama",
+      "rating": 4.0,
+      "cover": "https://i.mydramalist.com/wb83N_4c.jpg?v=1",
+      "link": "https://mydramalist.com/709307-the-first-love-story",
+      "date": null,
+      "source": "MyDramaList"
+    },
+    {
       "title": "A Moment to Remember",
       "category": "Asian Drama",
       "rating": 5.0,
@@ -67895,6 +67904,15 @@
       "rating": 4.5,
       "cover": "https://i.mydramalist.com/15Ygy_4c.jpg?v=1",
       "link": "https://mydramalist.com/8-secret-garden-2010",
+      "date": null,
+      "source": "MyDramaList"
+    },
+    {
+      "title": "Semantic Error",
+      "category": "Asian Drama",
+      "rating": 4.5,
+      "cover": "https://i.mydramalist.com/d5KBz_4c.jpg?v=1",
+      "link": "https://mydramalist.com/685259-semantic-error",
       "date": null,
       "source": "MyDramaList"
     },
