@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-16T16:01:05.124598+00:00",
-  "count": 7610,
+  "updated_at": "2026-09-16T19:26:36.608210+00:00",
+  "count": 7611,
   "items": [
     {
       "title": "Us (2019)",
@@ -55547,7 +55547,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx161493-5dGX9bAWYXtA.jpg",
       "link": "https://anilist.co/manga/161493",
-      "date": "2026-09-09T12:40:33+00:00",
+      "date": "2026-09-16T16:06:13+00:00",
       "source": "AniList"
     },
     {
@@ -67445,6 +67445,15 @@
       "rating": 4.2,
       "cover": "https://i.mydramalist.com/Xq58d_4c.jpg?v=1",
       "link": "https://mydramalist.com/79997-boy-referee",
+      "date": null,
+      "source": "MyDramaList"
+    },
+    {
+      "title": "Kabe-Koji-Nekoyashiki-kun Desires to Be Recognized",
+      "category": "Asian Drama",
+      "rating": 4.0,
+      "cover": "https://i.mydramalist.com/EK8Ol_4c.jpg?v=1",
+      "link": "https://mydramalist.com/730757-kabe-sa-doujin-sakka-no-neko-yashiki-kun-wa-shouninyokkyou-wo-kojiraseteiru",
       "date": null,
       "source": "MyDramaList"
     },
