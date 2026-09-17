@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T22:38:37.265163+00:00",
+  "updated_at": "2026-09-17T03:03:48.512494+00:00",
   "count": 7611,
   "items": [
     {
@@ -28521,6 +28521,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx137791-MkaacubcgPSe.jpg",
       "link": "https://anilist.co/manga/137791",
       "date": "2025-12-19T10:30:21+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Koi wo Shitai Wake ja Nai keredo",
+      "category": "Manga",
+      "rating": 4.0,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx198534-FK50oJSb7RbH.jpg",
+      "link": "https://anilist.co/manga/198534",
+      "date": "2026-09-17T01:01:11+00:00",
       "source": "AniList"
     },
     {
@@ -57411,15 +57420,6 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx161552-d19NM2KJaiCy.jpg",
       "link": "https://anilist.co/manga/161552",
       "date": "2025-12-24T14:09:46+00:00",
-      "source": "AniList"
-    },
-    {
-      "title": "Koi wo Shitai Wake ja Nai keredo",
-      "category": "Manga",
-      "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx198534-FK50oJSb7RbH.jpg",
-      "link": "https://anilist.co/manga/198534",
-      "date": "2025-12-18T23:49:29+00:00",
       "source": "AniList"
     },
     {
