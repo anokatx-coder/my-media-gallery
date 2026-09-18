@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T08:45:00.597035+00:00",
+  "updated_at": "2026-09-18T15:43:31.365317+00:00",
   "count": 7613,
   "items": [
     {
@@ -42951,15 +42951,6 @@
       "source": "AniList"
     },
     {
-      "title": "After Period",
-      "category": "Manga",
-      "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx194293-mBpBoyFeOLzW.jpg",
-      "link": "https://anilist.co/manga/194293",
-      "date": "2026-08-23T09:55:06+00:00",
-      "source": "AniList"
-    },
-    {
       "title": "Kuchibiru kara Ai",
       "category": "Manga",
       "rating": null,
@@ -53765,7 +53756,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx124621-g3dTY9fb8Frj.jpg",
       "link": "https://anilist.co/manga/124621",
-      "date": "2026-07-03T12:51:29+00:00",
+      "date": "2026-09-18T15:37:03+00:00",
       "source": "AniList"
     },
     {
@@ -55376,7 +55367,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx164263-p51ceirxyl85.jpg",
       "link": "https://anilist.co/manga/164263",
-      "date": "2026-06-18T10:55:19+00:00",
+      "date": "2026-09-18T15:18:23+00:00",
       "source": "AniList"
     },
     {
@@ -57941,7 +57932,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx196582-yTqD371pH8n1.jpg",
       "link": "https://anilist.co/manga/196582",
-      "date": "2026-08-10T15:37:08+00:00",
+      "date": "2026-09-18T14:44:05+00:00",
       "source": "AniList"
     },
     {
@@ -58023,6 +58014,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx183664-HpdQaPGbHKrg.png",
       "link": "https://anilist.co/manga/183664",
       "date": "2026-08-22T12:49:29+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "After Period",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx194293-mBpBoyFeOLzW.jpg",
+      "link": "https://anilist.co/manga/194293",
+      "date": "2026-09-18T14:31:47+00:00",
       "source": "AniList"
     },
     {
