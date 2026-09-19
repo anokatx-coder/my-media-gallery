@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-19T08:31:35.942204+00:00",
-  "count": 7613,
+  "updated_at": "2026-09-19T15:15:51.982219+00:00",
+  "count": 7614,
   "items": [
     {
       "title": "Us (2019)",
@@ -3540,10 +3540,10 @@
       "source": "AniList"
     },
     {
-      "title": "Tougen Anki: Nikko Kegon Falls Arc",
+      "title": "TOUGEN ANKI: Nikko Kegon Falls Arc",
       "category": "Anime",
       "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx204650-5qXlU69CHwKA.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx204650-nvK5CuG60WGY.jpg",
       "link": "https://anilist.co/anime/204650",
       "date": "2025-12-27T13:37:27+00:00",
       "source": "AniList"
@@ -30906,6 +30906,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx206608-6kkzfQwTUncX.jpg",
       "link": "https://anilist.co/manga/206608",
       "date": "2026-09-09T13:24:31+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Symbiosis of Luna and Sol",
+      "category": "Manga",
+      "rating": 4.0,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx189759-YvGcT34s0htp.png",
+      "link": "https://anilist.co/manga/189759",
+      "date": "2026-09-19T13:09:53+00:00",
       "source": "AniList"
     },
     {
