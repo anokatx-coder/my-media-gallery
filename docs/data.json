@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T09:03:22.465284+00:00",
+  "updated_at": "2026-09-20T15:22:07.804159+00:00",
   "count": 7616,
   "items": [
     {
@@ -30918,6 +30918,15 @@
       "source": "AniList"
     },
     {
+      "title": "Koi no Hajime",
+      "category": "Manga",
+      "rating": 4.0,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx93025-6PCmbrN9nxRq.jpg",
+      "link": "https://anilist.co/manga/93025",
+      "date": "2026-09-20T14:29:31+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "A Man and His Cat",
       "category": "Manga",
       "rating": null,
@@ -43002,24 +43011,6 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx197935-pxeTTAEHAvYI.jpg",
       "link": "https://anilist.co/manga/197935",
       "date": "2026-09-16T12:14:40+00:00",
-      "source": "AniList"
-    },
-    {
-      "title": "Like a First Love",
-      "category": "Manga",
-      "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/12198.jpg",
-      "link": "https://anilist.co/manga/42198",
-      "date": "2026-09-20T00:33:47+00:00",
-      "source": "AniList"
-    },
-    {
-      "title": "Koi no Hajime",
-      "category": "Manga",
-      "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx93025-6PCmbrN9nxRq.jpg",
-      "link": "https://anilist.co/manga/93025",
-      "date": "2026-09-20T00:34:24+00:00",
       "source": "AniList"
     },
     {
@@ -57905,7 +57896,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx207358-T9msFo4YzXL7.jpg",
       "link": "https://anilist.co/manga/207358",
-      "date": "2026-07-19T00:04:48+00:00",
+      "date": "2026-09-20T12:02:43+00:00",
       "source": "AniList"
     },
     {
@@ -58086,6 +58077,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx201034-tn8ksrdrhoUC.jpg",
       "link": "https://anilist.co/manga/201034",
       "date": "2026-09-17T14:03:56+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Like a First Love",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/12198.jpg",
+      "link": "https://anilist.co/manga/42198",
+      "date": "2026-09-20T15:14:11+00:00",
       "source": "AniList"
     },
     {
