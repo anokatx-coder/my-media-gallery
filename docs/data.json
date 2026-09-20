@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T15:22:07.804159+00:00",
+  "updated_at": "2026-09-20T18:29:59.521036+00:00",
   "count": 7616,
   "items": [
     {
@@ -726,7 +726,7 @@
       "title": "In the Mood for Love (2000)",
       "category": "Movie",
       "rating": 5.0,
-      "cover": "https://image.tmdb.org/t/p/w500/iYypPT4bhqXfq1b6EnmxvRt6b2Y.jpg",
+      "cover": "https://image.tmdb.org/t/p/w500/8BgGbbWiLNhPtkMkN0gGTnbtvBv.jpg",
       "link": "https://boxd.it/6a1DBb",
       "date": "2024-03-29T00:00:00+00:00",
       "source": "Letterboxd (export)"
@@ -30918,6 +30918,15 @@
       "source": "AniList"
     },
     {
+      "title": "Like a First Love",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/12198.jpg",
+      "link": "https://anilist.co/manga/42198",
+      "date": "2026-09-20T15:25:38+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "Koi no Hajime",
       "category": "Manga",
       "rating": 4.0,
@@ -58077,15 +58086,6 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx201034-tn8ksrdrhoUC.jpg",
       "link": "https://anilist.co/manga/201034",
       "date": "2026-09-17T14:03:56+00:00",
-      "source": "AniList"
-    },
-    {
-      "title": "Like a First Love",
-      "category": "Manga",
-      "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/12198.jpg",
-      "link": "https://anilist.co/manga/42198",
-      "date": "2026-09-20T15:14:11+00:00",
       "source": "AniList"
     },
     {
