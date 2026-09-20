@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-19T22:07:05.383280+00:00",
-  "count": 7614,
+  "updated_at": "2026-09-20T03:00:28.510514+00:00",
+  "count": 7616,
   "items": [
     {
       "title": "Us (2019)",
@@ -15641,7 +15641,7 @@
       "rating": 4.0,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx162254-7dzL9NZgac2L.jpg",
       "link": "https://anilist.co/manga/162254",
-      "date": "2023-11-07T03:52:43+00:00",
+      "date": "2026-09-20T00:35:11+00:00",
       "source": "AniList"
     },
     {
@@ -43002,6 +43002,24 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx197935-pxeTTAEHAvYI.jpg",
       "link": "https://anilist.co/manga/197935",
       "date": "2026-09-16T12:14:40+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Like a First Love",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/12198.jpg",
+      "link": "https://anilist.co/manga/42198",
+      "date": "2026-09-20T00:33:47+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Koi no Hajime",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx93025-6PCmbrN9nxRq.jpg",
+      "link": "https://anilist.co/manga/93025",
+      "date": "2026-09-20T00:34:24+00:00",
       "source": "AniList"
     },
     {
