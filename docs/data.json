@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T09:04:32.374590+00:00",
+  "updated_at": "2026-09-23T16:11:26.405463+00:00",
   "count": 7621,
   "items": [
     {
@@ -30684,6 +30684,15 @@
       "source": "AniList"
     },
     {
+      "title": "A Pornographic Romance With His Favorite Author",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx213803-RRD9ZswhfjAK.jpg",
+      "link": "https://anilist.co/manga/213803",
+      "date": "2026-09-23T13:49:43+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "Suki tte Ittekurete mo Ii yo?",
       "category": "Manga",
       "rating": 4.0,
@@ -42939,15 +42948,6 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx170042-oTzCNtpoH7a3.jpg",
       "link": "https://anilist.co/manga/170042",
       "date": "2026-08-09T03:58:54+00:00",
-      "source": "AniList"
-    },
-    {
-      "title": "A Pornographic Romance With His Favorite Author",
-      "category": "Manga",
-      "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx213803-RRD9ZswhfjAK.jpg",
-      "link": "https://anilist.co/manga/213803",
-      "date": "2026-08-12T13:09:04+00:00",
       "source": "AniList"
     },
     {
@@ -57158,7 +57158,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx180421-IegpIt7LtGbz.jpg",
       "link": "https://anilist.co/manga/180421",
-      "date": "2025-10-25T11:51:47+00:00",
+      "date": "2026-09-23T12:57:00+00:00",
       "source": "AniList"
     },
     {
@@ -67614,7 +67614,7 @@
       "title": "Love Next Door",
       "category": "Asian Drama",
       "rating": 4.0,
-      "cover": "https://i.mydramalist.com/x4ngkw_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/758259-mom-s-friend-s-son",
       "date": null,
       "source": "MyDramaList"
@@ -67650,7 +67650,7 @@
       "title": "Mad for Each Other",
       "category": "Asian Drama",
       "rating": 4.5,
-      "cover": "https://i.mydramalist.com/xJ7pr_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/79527-the-crazy-guy-in-the-district",
       "date": null,
       "source": "MyDramaList"
@@ -67659,7 +67659,7 @@
       "title": "Marriage, Not Dating",
       "category": "Asian Drama",
       "rating": 5.0,
-      "cover": "https://i.mydramalist.com/Px8zZc.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/9803-marriage-not-dating",
       "date": null,
       "source": "MyDramaList"
@@ -67668,7 +67668,7 @@
       "title": "Marry You",
       "category": "Asian Drama",
       "rating": 3.8,
-      "cover": "https://i.mydramalist.com/60lLB0_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/762519-marry-you",
       "date": null,
       "source": "MyDramaList"
@@ -67677,7 +67677,7 @@
       "title": "Melo Movie",
       "category": "Asian Drama",
       "rating": 4.0,
-      "cover": "https://i.mydramalist.com/YYlemA_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/758615-melo-movie",
       "date": null,
       "source": "MyDramaList"
@@ -67686,7 +67686,7 @@
       "title": "Mercy for None",
       "category": "Asian Drama",
       "rating": 4.2,
-      "cover": "https://i.mydramalist.com/mOE4Eb_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/748031-plaza-wars",
       "date": null,
       "source": "MyDramaList"
@@ -67695,7 +67695,7 @@
       "title": "Miss Night and Day",
       "category": "Asian Drama",
       "rating": 4.0,
-      "cover": "https://i.mydramalist.com/vX57e8_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/755953-she-is-different-day-and-night",
       "date": null,
       "source": "MyDramaList"
@@ -67704,7 +67704,7 @@
       "title": "Mood of the Day",
       "category": "Asian Drama",
       "rating": 4.0,
-      "cover": "https://i.mydramalist.com/041Jkc.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/11235-mood-of-the-day",
       "date": null,
       "source": "MyDramaList"
@@ -67713,7 +67713,7 @@
       "title": "Moving",
       "category": "Asian Drama",
       "rating": 5.0,
-      "cover": "https://i.mydramalist.com/l0YBOx_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/25560-moving",
       "date": null,
       "source": "MyDramaList"
@@ -67722,7 +67722,7 @@
       "title": "My Beautiful Man",
       "category": "Asian Drama",
       "rating": 4.5,
-      "cover": "https://i.mydramalist.com/dXv4z_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/712695-utsukushii-kare",
       "date": null,
       "source": "MyDramaList"
@@ -67731,7 +67731,7 @@
       "title": "My Beautiful Man Season 2",
       "category": "Asian Drama",
       "rating": 4.5,
-      "cover": "https://i.mydramalist.com/x46vV0_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/746911-utsukushii-kare-season-2",
       "date": null,
       "source": "MyDramaList"
@@ -67740,7 +67740,7 @@
       "title": "My Demon",
       "category": "Asian Drama",
       "rating": 4.0,
-      "cover": "https://i.mydramalist.com/0w0mZ6_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/746993-my-demon",
       "date": null,
       "source": "MyDramaList"
@@ -67749,7 +67749,7 @@
       "title": "My Liberation Notes",
       "category": "Asian Drama",
       "rating": 4.5,
-      "cover": "https://i.mydramalist.com/jd5jw_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/685441-my-liberation-notes",
       "date": null,
       "source": "MyDramaList"
@@ -67758,7 +67758,7 @@
       "title": "My Love from the Star",
       "category": "Asian Drama",
       "rating": 4.0,
-      "cover": "https://i.mydramalist.com/d0dQAc.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/7398-you-who-came-from-the-stars",
       "date": null,
       "source": "MyDramaList"
@@ -67767,7 +67767,7 @@
       "title": "My Love Mix-Up!",
       "category": "Asian Drama",
       "rating": 4.5,
-      "cover": "https://i.mydramalist.com/eqKyp_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/708381-kieta-hatsukoi",
       "date": null,
       "source": "MyDramaList"
@@ -67776,7 +67776,7 @@
       "title": "My Princess",
       "category": "Asian Drama",
       "rating": 4.5,
-      "cover": "https://i.mydramalist.com/QJXj4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/72-my-princess",
       "date": null,
       "source": "MyDramaList"
@@ -67785,7 +67785,7 @@
       "title": "My Secret Romance",
       "category": "Asian Drama",
       "rating": 4.2,
-      "cover": "https://i.mydramalist.com/XZngpc.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/21465-my-secret-romance",
       "date": null,
       "source": "MyDramaList"
@@ -67794,7 +67794,7 @@
       "title": "My Secret Terrius",
       "category": "Asian Drama",
       "rating": 4.5,
-      "cover": "https://i.mydramalist.com/egd3Ec.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/27703-terius-behind-me",
       "date": null,
       "source": "MyDramaList"
@@ -67803,7 +67803,7 @@
       "title": "My Unfamiliar Family",
       "category": "Asian Drama",
       "rating": 4.5,
-      "cover": "https://i.mydramalist.com/woN2J_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/55011-we-don-t-know-much-but-we-are-a-family",
       "date": null,
       "source": "MyDramaList"
@@ -67812,7 +67812,7 @@
       "title": "Mystic Pop-Up Bar",
       "category": "Asian Drama",
       "rating": 4.5,
-      "cover": "https://i.mydramalist.com/eEkppc.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/34539-ssang-gap-pocha",
       "date": null,
       "source": "MyDramaList"
@@ -67821,7 +67821,7 @@
       "title": "No Touching At All",
       "category": "Asian Drama",
       "rating": 4.0,
-      "cover": "https://i.mydramalist.com/81kVKc.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/9749-no-touching-at-all",
       "date": null,
       "source": "MyDramaList"
@@ -67830,7 +67830,7 @@
       "title": "Oh My Ghost",
       "category": "Asian Drama",
       "rating": 4.0,
-      "cover": "https://i.mydramalist.com/bvp1Vc.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/14213-oh-my-ghostess",
       "date": null,
       "source": "MyDramaList"
@@ -67839,7 +67839,7 @@
       "title": "Oh My Ghost Clients",
       "category": "Asian Drama",
       "rating": 3.8,
-      "cover": "https://i.mydramalist.com/5v728e_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/756741-labourer-noh-moo-jin",
       "date": null,
       "source": "MyDramaList"
@@ -67848,7 +67848,7 @@
       "title": "Oh My Venus",
       "category": "Asian Drama",
       "rating": 4.0,
-      "cover": "https://i.mydramalist.com/B1rl6_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/15062-oh-my-venus",
       "date": null,
       "source": "MyDramaList"
@@ -67857,7 +67857,7 @@
       "title": "Old Fashion Cupcake",
       "category": "Asian Drama",
       "rating": 4.5,
-      "cover": "https://i.mydramalist.com/XYKNd_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/729151-old-fashion-cupcake",
       "date": null,
       "source": "MyDramaList"
@@ -67866,7 +67866,7 @@
       "title": "Once upon a Small Town",
       "category": "Asian Drama",
       "rating": 4.2,
-      "cover": "https://i.mydramalist.com/rPj2j_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/705675-country-diary-by-chance",
       "date": null,
       "source": "MyDramaList"
@@ -67875,7 +67875,7 @@
       "title": "One Dollar Lawyer",
       "category": "Asian Drama",
       "rating": 4.0,
-      "cover": "https://i.mydramalist.com/42DRQ_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/715969-one-thousand-dollar-lawyer",
       "date": null,
       "source": "MyDramaList"
@@ -67884,7 +67884,7 @@
       "title": "Our Beloved Summer",
       "category": "Asian Drama",
       "rating": 5.0,
-      "cover": "https://i.mydramalist.com/4QLgQ_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/694231-us-that-year",
       "date": null,
       "source": "MyDramaList"
@@ -67893,7 +67893,7 @@
       "title": "Our Blues",
       "category": "Asian Drama",
       "rating": 4.2,
-      "cover": "https://i.mydramalist.com/48LYQ_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/697585-our-blues",
       "date": null,
       "source": "MyDramaList"
@@ -67902,7 +67902,7 @@
       "title": "Our Dating Sim",
       "category": "Asian Drama",
       "rating": 4.0,
-      "cover": "https://i.mydramalist.com/WPjO4P_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/746073-our-dating-sim",
       "date": null,
       "source": "MyDramaList"
