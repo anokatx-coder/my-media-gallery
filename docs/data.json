@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-25T03:09:38.438027+00:00",
-  "count": 7622,
+  "updated_at": "2026-09-25T09:22:57.868676+00:00",
+  "count": 7624,
   "items": [
     {
       "title": "Us (2019)",
@@ -30987,6 +30987,24 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b189203-fO5Y2AcUdXHA.jpg",
       "link": "https://anilist.co/manga/189203",
       "date": "2026-09-24T13:22:27+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "We Are Not Gay!",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b133723-XjcCDzPCmaxZ.jpg",
+      "link": "https://anilist.co/manga/133723",
+      "date": "2026-09-25T03:52:58+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Shitsuji Kanzaki no Yuuutsu",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/100078-k0pgC2wjmuYT.jpg",
+      "link": "https://anilist.co/manga/100078",
+      "date": "2026-09-25T09:11:38+00:00",
       "source": "AniList"
     },
     {
@@ -67623,7 +67641,7 @@
       "title": "Love Next Door",
       "category": "Asian Drama",
       "rating": 4.0,
-      "cover": "",
+      "cover": "https://i.mydramalist.com/x4ngkw_4c.jpg?v=1",
       "link": "https://mydramalist.com/758259-mom-s-friend-s-son",
       "date": null,
       "source": "MyDramaList"
@@ -67794,7 +67812,7 @@
       "title": "My Secret Romance",
       "category": "Asian Drama",
       "rating": 4.2,
-      "cover": "",
+      "cover": "https://i.mydramalist.com/XZngpc.jpg?v=1",
       "link": "https://mydramalist.com/21465-my-secret-romance",
       "date": null,
       "source": "MyDramaList"
