@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-26T03:11:26.207007+00:00",
-  "count": 7626,
+  "updated_at": "2026-09-26T09:03:58.229535+00:00",
+  "count": 7627,
   "items": [
     {
       "title": "Us (2019)",
@@ -31005,6 +31005,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/100078-k0pgC2wjmuYT.jpg",
       "link": "https://anilist.co/manga/100078",
       "date": "2026-09-25T09:11:38+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "BL Metamorphosis",
+      "category": "Manga",
+      "rating": 4.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx102043-MWTXr00zXihy.jpg",
+      "link": "https://anilist.co/manga/102043",
+      "date": "2026-09-26T03:30:44+00:00",
       "source": "AniList"
     },
     {
