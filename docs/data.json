@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-27T09:50:21.685541+00:00",
-  "count": 7629,
+  "updated_at": "2026-09-27T16:19:47.999564+00:00",
+  "count": 7630,
   "items": [
     {
       "title": "The Little Things (2021)",
@@ -67841,6 +67841,15 @@
       "rating": 4.5,
       "cover": "https://i.mydramalist.com/eqKyp_4c.jpg?v=1",
       "link": "https://mydramalist.com/708381-kieta-hatsukoi",
+      "date": null,
+      "source": "MyDramaList"
+    },
+    {
+      "title": "My Personal Weatherman",
+      "category": "Asian Drama",
+      "rating": 4.0,
+      "cover": "https://i.mydramalist.com/2wdroR_4c.jpg?v=1",
+      "link": "https://mydramalist.com/755469-my-personal-weatherman",
       "date": null,
       "source": "MyDramaList"
     },
