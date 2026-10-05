@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-05T11:10:06.222195+00:00",
-  "count": 7640,
+  "updated_at": "2026-10-05T20:14:45.768426+00:00",
+  "count": 7641,
   "items": [
     {
       "title": "Forgotten Island (2026)",
@@ -897,7 +897,7 @@
       "title": "The Killer (2023)",
       "category": "Movie",
       "rating": 3.5,
-      "cover": "https://image.tmdb.org/t/p/w500/ipkcgvN7h3yZnbYowthloHLKsf4.jpg",
+      "cover": "https://image.tmdb.org/t/p/w500/e7Jvsry47JJQruuezjU2X1Z6J77.jpg",
       "link": "https://boxd.it/6OIHMD",
       "date": "2024-07-06T00:00:00+00:00",
       "source": "Letterboxd (export)"
@@ -3579,7 +3579,7 @@
       "title": "TOUGEN ANKI: Nikko Kegon Falls Arc",
       "category": "Anime",
       "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx204650-nvK5CuG60WGY.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx204650-cAQOzQ84Lwk8.png",
       "link": "https://anilist.co/anime/204650",
       "date": "2025-12-27T13:37:27+00:00",
       "source": "AniList"
@@ -68336,6 +68336,15 @@
       "rating": 4.0,
       "cover": "https://i.mydramalist.com/2w4rZP_4c.jpg?v=1",
       "link": "https://mydramalist.com/729535-strong-woman-kang-nam-soon",
+      "date": null,
+      "source": "MyDramaList"
+    },
+    {
+      "title": "Sugar Dog Life",
+      "category": "Asian Drama",
+      "rating": 4.0,
+      "cover": "https://i.mydramalist.com/jQ3xnJ_4c.jpg?v=1",
+      "link": "https://mydramalist.com/771915-sugar-dog-life",
       "date": null,
       "source": "MyDramaList"
     },
