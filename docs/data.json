@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T08:57:14.050001+00:00",
+  "updated_at": "2026-10-25T15:29:11.012622+00:00",
   "count": 7663,
   "items": [
     {
@@ -30873,6 +30873,15 @@
       "source": "AniList"
     },
     {
+      "title": "Hey Nagi, Be My Love",
+      "category": "Manga",
+      "rating": 4.0,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx198950-WEiykbaMuM86.jpg",
+      "link": "https://anilist.co/manga/198950",
+      "date": "2026-10-25T14:38:20+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "Fortune Favors a Smile",
       "category": "Manga",
       "rating": 4.0,
@@ -43137,15 +43146,6 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx198674-NlQIpGVlfa3l.jpg",
       "link": "https://anilist.co/manga/198674",
       "date": "2026-08-13T11:58:48+00:00",
-      "source": "AniList"
-    },
-    {
-      "title": "Hey Nagi, Be My Love",
-      "category": "Manga",
-      "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx198950-WEiykbaMuM86.jpg",
-      "link": "https://anilist.co/manga/198950",
-      "date": "2026-08-16T11:58:30+00:00",
       "source": "AniList"
     },
     {
