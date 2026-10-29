@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29T10:46:39.808187+00:00",
-  "count": 6960,
+  "updated_at": "2026-10-29T17:58:52.545159+00:00",
+  "count": 6962,
   "items": [
     {
       "title": "Shin Godzilla (2016)",
@@ -31206,6 +31206,15 @@
       "source": "AniList"
     },
     {
+      "title": "My Engagement to an Omega-Hating Alpha",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx207000-yVYdPw9pBTJz.jpg",
+      "link": "https://anilist.co/manga/207000",
+      "date": "2026-10-29T13:40:18+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "A Man and His Cat",
       "category": "Manga",
       "rating": null,
@@ -61595,6 +61604,15 @@
       "rating": 4.0,
       "cover": "https://i.mydramalist.com/RjZBVc.jpg?v=1",
       "link": "https://mydramalist.com/10510-love-forecast",
+      "date": null,
+      "source": "MyDramaList"
+    },
+    {
+      "title": "Love Is a Poison",
+      "category": "Asian Drama",
+      "rating": 4.2,
+      "cover": "https://i.mydramalist.com/wJ36AJ_4c.jpg?v=1",
+      "link": "https://mydramalist.com/774029-doku-koi-doku-mo-sugireba-koi-to-naru",
       "date": null,
       "source": "MyDramaList"
     },
