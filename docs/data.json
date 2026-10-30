@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-30T10:48:22.303486+00:00",
-  "count": 6962,
+  "updated_at": "2026-10-30T17:41:02.029936+00:00",
+  "count": 6964,
   "items": [
     {
       "title": "Shin Godzilla (2016)",
@@ -43329,6 +43329,15 @@
       "source": "AniList"
     },
     {
+      "title": "CAN'T BACK",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx211050-rA1SMUkL3JNy.jpg",
+      "link": "https://anilist.co/manga/211050",
+      "date": "2026-10-30T11:10:57+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "Glasses With a Chance of Delinquent",
       "category": "Manga",
       "rating": 4.5,
@@ -61127,6 +61136,15 @@
       "rating": 4.0,
       "cover": "https://i.mydramalist.com/XOYRZ_4c.jpg?v=1",
       "link": "https://mydramalist.com/58367-postnatal-care-center",
+      "date": null,
+      "source": "MyDramaList"
+    },
+    {
+      "title": "BL Drama no Shuen ni Narimashita: Crank Up Hen",
+      "category": "Asian Drama",
+      "rating": 4.0,
+      "cover": "https://i.mydramalist.com/jQlOjb_4c.jpg?v=1",
+      "link": "https://mydramalist.com/759955-bl-drama-no-shuen-ni-narimashita-crank-up-hen",
       "date": null,
       "source": "MyDramaList"
     },
