@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T10:10:35.971686+00:00",
-  "count": 6964,
+  "updated_at": "2026-10-31T16:44:51.283890+00:00",
+  "count": 6967,
   "items": [
     {
       "title": "Shin Godzilla (2016)",
@@ -31215,6 +31215,15 @@
       "source": "AniList"
     },
     {
+      "title": "Yomikiri Anthology \"Choushoku, Shimashou ka.\"",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx198249-GhF18SqPIIuv.jpg",
+      "link": "https://anilist.co/manga/198249",
+      "date": "2026-10-31T12:03:11+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "A Man and His Cat",
       "category": "Manga",
       "rating": null,
@@ -58211,7 +58220,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx204297-w9Fu9HGLVv71.jpg",
       "link": "https://anilist.co/manga/204297",
-      "date": "2026-10-23T14:51:12+00:00",
+      "date": "2026-10-31T12:00:06+00:00",
       "source": "AniList"
     },
     {
@@ -58392,6 +58401,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx195913-WAummmwcNHKY.jpg",
       "link": "https://anilist.co/manga/195913",
       "date": "2026-10-29T10:01:53+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Still You",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx215887-gHtjtSm3EfE0.jpg",
+      "link": "https://anilist.co/manga/215887",
+      "date": "2026-10-31T12:28:36+00:00",
       "source": "AniList"
     },
     {
@@ -61491,6 +61509,15 @@
       "source": "MyDramaList"
     },
     {
+      "title": "I Became the Main Role of a BL Drama Season 2",
+      "category": "Asian Drama",
+      "rating": 4.0,
+      "cover": "https://i.mydramalist.com/oQBRX6_4c.jpg?v=1",
+      "link": "https://mydramalist.com/783826-bl-drama-no-shuen-ni-narimashita",
+      "date": null,
+      "source": "MyDramaList"
+    },
+    {
       "title": "I Cannot Reach You",
       "category": "Asian Drama",
       "rating": 4.2,
@@ -61746,7 +61773,7 @@
       "title": "My Beautiful Man",
       "category": "Asian Drama",
       "rating": 4.5,
-      "cover": "",
+      "cover": "https://i.mydramalist.com/dXv4z_4c.jpg?v=1",
       "link": "https://mydramalist.com/712695-utsukushii-kare",
       "date": null,
       "source": "MyDramaList"
