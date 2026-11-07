@@ -1,7 +1,16 @@
 {
-  "updated_at": "2026-11-07T04:15:01.033980+00:00",
-  "count": 6970,
+  "updated_at": "2026-11-07T14:39:53.869940+00:00",
+  "count": 6973,
   "items": [
+    {
+      "title": "One Year to Live, Buy a Man (2026)",
+      "category": "Movie",
+      "rating": 4.0,
+      "cover": "https://a.ltrbxd.com/resized/film-poster/1/5/1/8/4/5/1/1518451-one-year-to-live-buy-a-man-0-600-0-900-crop.jpg?v=a791e6705f",
+      "link": "https://letterboxd.com/anokatx/film/one-year-to-live-buy-a-man/",
+      "date": "2026-11-07T00:00:00+00:00",
+      "source": "Letterboxd"
+    },
     {
       "title": "Shin Godzilla (2016)",
       "category": "Movie",
@@ -441,15 +450,6 @@
       "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/1/0/0/5/9/1110059-longlegs-0-600-0-900-crop.jpg?v=9d77241a8c",
       "link": "https://letterboxd.com/anokatx/film/longlegs/",
       "date": "2025-10-24T00:00:00+00:00",
-      "source": "Letterboxd"
-    },
-    {
-      "title": "Quezon (2025)",
-      "category": "Movie",
-      "rating": 4.0,
-      "cover": "https://a.ltrbxd.com/resized/film-poster/5/7/1/3/0/0/571300-quezon-0-600-0-900-crop.jpg?v=5dc540ab7c",
-      "link": "https://letterboxd.com/anokatx/film/quezon/",
-      "date": "2025-10-19T00:00:00+00:00",
       "source": "Letterboxd"
     },
     {
@@ -1467,6 +1467,15 @@
       "cover": "https://image.tmdb.org/t/p/w500/4kpdyePOlcELQQJcxXPF5GB1Adw.jpg",
       "link": "https://boxd.it/bpehiH",
       "date": "2025-10-18T00:00:00+00:00",
+      "source": "Letterboxd (export)"
+    },
+    {
+      "title": "Quezon (2025)",
+      "category": "Movie",
+      "rating": 4.0,
+      "cover": "https://image.tmdb.org/t/p/w500/cdjr6ZAAm1rxdP1jR0tXdRqU7KO.jpg",
+      "link": "https://boxd.it/bpXgad",
+      "date": "2025-10-19T00:00:00+00:00",
       "source": "Letterboxd (export)"
     },
     {
@@ -31224,6 +31233,15 @@
       "source": "AniList"
     },
     {
+      "title": "Koi wo Suru ni wa Lv. ga Tarimasen!",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx181742-MKsigOxiRV0D.jpg",
+      "link": "https://anilist.co/manga/181742",
+      "date": "2026-11-07T14:17:39+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "A Man and His Cat",
       "category": "Manga",
       "rating": null,
@@ -55583,7 +55601,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx108027-le6EQPfpeCmY.jpg",
       "link": "https://anilist.co/manga/108027",
-      "date": "2026-07-18T10:40:11+00:00",
+      "date": "2026-11-07T04:18:04+00:00",
       "source": "AniList"
     },
     {
@@ -57914,7 +57932,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx189292-rGnXXbpBGMeT.jpg",
       "link": "https://anilist.co/manga/189292",
-      "date": "2026-02-14T00:10:51+00:00",
+      "date": "2026-11-07T05:16:12+00:00",
       "source": "AniList"
     },
     {
@@ -58437,6 +58455,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx215887-gHtjtSm3EfE0.jpg",
       "link": "https://anilist.co/manga/215887",
       "date": "2026-10-31T12:28:36+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Chuuken Dom wa Azuma Shunin wo Amayaka Shitai",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx206894-BnwiRccHjAPX.jpg",
+      "link": "https://anilist.co/manga/206894",
+      "date": "2026-11-07T13:17:44+00:00",
       "source": "AniList"
     },
     {
