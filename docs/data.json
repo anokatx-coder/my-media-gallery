@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T12:03:53.461876+00:00",
+  "updated_at": "2026-11-10T19:41:00.200056+00:00",
   "count": 6982,
   "items": [
     {
@@ -25275,6 +25275,15 @@
       "source": "AniList"
     },
     {
+      "title": "The Marshal King",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx186517-AP09vY1BVb1E.jpg",
+      "link": "https://anilist.co/manga/186517",
+      "date": "2026-11-10T12:08:20+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "Midori no Kaze ni Kimi wo Hiraku",
       "category": "Manga",
       "rating": 3.5,
@@ -31293,6 +31302,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/19807.jpg",
       "link": "https://anilist.co/manga/49807",
       "date": "2026-11-09T15:23:45+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "A Boring Man and an Extraordinary Man",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx197482-UmoRRHhWOGLW.jpg",
+      "link": "https://anilist.co/manga/197482",
+      "date": "2026-11-10T13:34:25+00:00",
       "source": "AniList"
     },
     {
@@ -43434,15 +43452,6 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx189643-eZDjeRrVqf9b.jpg",
       "link": "https://anilist.co/manga/189643",
       "date": "2026-11-09T06:53:10+00:00",
-      "source": "AniList"
-    },
-    {
-      "title": "A Boring Man and an Extraordinary Man",
-      "category": "Manga",
-      "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx197482-UmoRRHhWOGLW.jpg",
-      "link": "https://anilist.co/manga/197482",
-      "date": "2026-11-10T11:14:44+00:00",
       "source": "AniList"
     },
     {
@@ -57324,15 +57333,6 @@
       "source": "AniList"
     },
     {
-      "title": "The Marshal King",
-      "category": "Manga",
-      "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx186517-AP09vY1BVb1E.jpg",
-      "link": "https://anilist.co/manga/186517",
-      "date": "2025-07-15T12:56:58+00:00",
-      "source": "AniList"
-    },
-    {
       "title": "Harinezumi to Contrast",
       "category": "Manga",
       "rating": null,
@@ -62655,7 +62655,7 @@
       "title": "Valentine's Day / Rokkaku",
       "category": "Asian Drama",
       "rating": 4.0,
-      "cover": "https://i.mydramalist.com/qPBDK_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/683087-valentine-hexagon",
       "date": null,
       "source": "MyDramaList"
