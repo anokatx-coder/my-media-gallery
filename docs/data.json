@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-09T04:13:14.587911+00:00",
-  "count": 6977,
+  "updated_at": "2026-11-10T02:32:52.173966+00:00",
+  "count": 6979,
   "items": [
     {
       "title": "One Year to Live, Buy a Man (2026)",
@@ -1239,7 +1239,7 @@
       "title": "The Boy and the Heron (2023)",
       "category": "Movie",
       "rating": 4.5,
-      "cover": "https://image.tmdb.org/t/p/w500/f4oZTcfGrVTXKTWg157AwikXqmP.jpg",
+      "cover": "https://image.tmdb.org/t/p/w500/4GKye5dR4uJyYbcyTveSue1gATD.jpg",
       "link": "https://boxd.it/9rzinn",
       "date": "2025-04-18T00:00:00+00:00",
       "source": "Letterboxd (export)"
@@ -1428,7 +1428,7 @@
       "title": "Unknown Number: The High School Catfish (2025)",
       "category": "Movie",
       "rating": 3.5,
-      "cover": "https://image.tmdb.org/t/p/w500/8sb7AvuvNZ8SFD9z1Q4Y7GyiuVh.jpg",
+      "cover": "https://image.tmdb.org/t/p/w500/nu3LtgefE2lsgYw1hxHZFoBXk9U.jpg",
       "link": "https://boxd.it/b0D2AV",
       "date": "2025-09-08T00:00:00+00:00",
       "source": "Letterboxd (export)"
@@ -24596,7 +24596,7 @@
       "rating": 4.5,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx171424-NnGUFLQaPnga.jpg",
       "link": "https://anilist.co/manga/171424",
-      "date": "2026-07-04T16:43:45+00:00",
+      "date": "2026-11-09T06:53:33+00:00",
       "source": "AniList"
     },
     {
@@ -31284,6 +31284,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx100565-1IdBO4neGnLH.jpg",
       "link": "https://anilist.co/manga/100565",
       "date": "2026-11-08T16:12:52+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Body Talk Paradox",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/19807.jpg",
+      "link": "https://anilist.co/manga/49807",
+      "date": "2026-11-09T15:23:45+00:00",
       "source": "AniList"
     },
     {
@@ -38082,7 +38091,7 @@
       "source": "AniList"
     },
     {
-      "title": "Tensei shitara Zenseno Otokotomodachi ni Kyuukon saremashita",
+      "title": "Tensei shitara Zense no Otoko Tomodachi ni Kyuukon Saremashita",
       "category": "Manga",
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx158552-52l6kSYAup1n.jpg",
@@ -43425,6 +43434,15 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx197486-HVGJ1wBxvX0G.jpg",
       "link": "https://anilist.co/manga/197486",
       "date": "2026-11-05T09:49:45+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Sense of Wonder",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx189643-eZDjeRrVqf9b.jpg",
+      "link": "https://anilist.co/manga/189643",
+      "date": "2026-11-09T06:53:10+00:00",
       "source": "AniList"
     },
     {
