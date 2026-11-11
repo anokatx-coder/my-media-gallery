@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11T11:41:55.600163+00:00",
-  "count": 6982,
+  "updated_at": "2026-11-11T19:12:17.599209+00:00",
+  "count": 6983,
   "items": [
     {
       "title": "One Year to Live, Buy a Man (2026)",
@@ -1347,7 +1347,7 @@
       "title": "Sunshine (2024)",
       "category": "Movie",
       "rating": 5.0,
-      "cover": "https://image.tmdb.org/t/p/w500/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
+      "cover": "https://image.tmdb.org/t/p/w500/vhYUTXbmMQYoqmGW1spTfbHCA7Y.jpg",
       "link": "https://boxd.it/axATgH",
       "date": "2025-07-30T00:00:00+00:00",
       "source": "Letterboxd (export)"
@@ -31314,6 +31314,15 @@
       "source": "AniList"
     },
     {
+      "title": "Opposites Attract",
+      "category": "Manga",
+      "rating": 4.0,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx140767-T8oKA8ZHyb4N.png",
+      "link": "https://anilist.co/manga/140767",
+      "date": "2026-11-11T13:02:30+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "A Man and His Cat",
       "category": "Manga",
       "rating": null,
@@ -56015,7 +56024,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx161493-5dGX9bAWYXtA.jpg",
       "link": "https://anilist.co/manga/161493",
-      "date": "2026-10-29T10:40:38+00:00",
+      "date": "2026-11-11T12:50:14+00:00",
       "source": "AniList"
     },
     {
@@ -58274,7 +58283,7 @@
       "rating": null,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx208022-tofSqLXuNR4w.jpg",
       "link": "https://anilist.co/manga/208022",
-      "date": "2026-05-29T21:55:29+00:00",
+      "date": "2026-11-11T12:55:19+00:00",
       "source": "AniList"
     },
     {
