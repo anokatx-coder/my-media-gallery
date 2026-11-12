@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T01:50:03.079777+00:00",
-  "count": 6983,
+  "updated_at": "2026-11-12T12:08:24.853748+00:00",
+  "count": 6986,
   "items": [
     {
       "title": "One Year to Live, Buy a Man (2026)",
@@ -21716,7 +21716,7 @@
       "rating": 3.5,
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx162256-m5P4iqX8e0HP.jpg",
       "link": "https://anilist.co/manga/162256",
-      "date": "2024-10-30T14:15:33+00:00",
+      "date": "2026-11-12T10:33:24+00:00",
       "source": "AniList"
     },
     {
@@ -43482,6 +43482,33 @@
       "source": "AniList"
     },
     {
+      "title": "Caught in Your Web",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx197258-uDZER47cGH5x.jpg",
+      "link": "https://anilist.co/manga/197258",
+      "date": "2026-11-12T10:32:58+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "Be My Love, My Lord",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx156064-VqjTRAAd5y4B.jpg",
+      "link": "https://anilist.co/manga/156064",
+      "date": "2026-11-12T10:34:09+00:00",
+      "source": "AniList"
+    },
+    {
+      "title": "A Nightingale Awaits the Blooming Love of Spring",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx145378-9BdkHbo2tEZR.png",
+      "link": "https://anilist.co/manga/145378",
+      "date": "2026-11-12T10:35:24+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "Glasses With a Chance of Delinquent",
       "category": "Manga",
       "rating": 4.5,
@@ -61998,7 +62025,7 @@
       "title": "My Secret Terrius",
       "category": "Asian Drama",
       "rating": 4.5,
-      "cover": "",
+      "cover": "https://i.mydramalist.com/egd3Ec.jpg?v=1",
       "link": "https://mydramalist.com/27703-terius-behind-me",
       "date": null,
       "source": "MyDramaList"
@@ -62358,7 +62385,7 @@
       "title": "Sold Out on You",
       "category": "Asian Drama",
       "rating": 3.8,
-      "cover": "https://i.mydramalist.com/g0dxWo_4c.jpg?v=1",
+      "cover": "",
       "link": "https://mydramalist.com/788726-it-s-sold-out-again-today",
       "date": null,
       "source": "MyDramaList"
