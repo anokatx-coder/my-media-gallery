@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T15:55:10.821808+00:00",
+  "updated_at": "2026-11-13T21:49:56.036360+00:00",
   "count": 6986,
   "items": [
     {
@@ -31323,6 +31323,15 @@
       "source": "AniList"
     },
     {
+      "title": "Be My Love, My Lord",
+      "category": "Manga",
+      "rating": 3.5,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx156064-VqjTRAAd5y4B.jpg",
+      "link": "https://anilist.co/manga/156064",
+      "date": "2026-11-13T20:49:02+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "A Man and His Cat",
       "category": "Manga",
       "rating": null,
@@ -43488,15 +43497,6 @@
       "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx197258-uDZER47cGH5x.jpg",
       "link": "https://anilist.co/manga/197258",
       "date": "2026-11-12T10:32:58+00:00",
-      "source": "AniList"
-    },
-    {
-      "title": "Be My Love, My Lord",
-      "category": "Manga",
-      "rating": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx156064-VqjTRAAd5y4B.jpg",
-      "link": "https://anilist.co/manga/156064",
-      "date": "2026-11-12T10:34:09+00:00",
       "source": "AniList"
     },
     {
