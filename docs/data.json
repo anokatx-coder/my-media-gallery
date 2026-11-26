@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-26T07:02:26.574842+00:00",
-  "count": 7059,
+  "updated_at": "2026-11-26T18:06:42.265866+00:00",
+  "count": 7060,
   "items": [
     {
       "title": "The Hunger Games: Sunrise on the Reaping (2026)",
@@ -58674,6 +58674,15 @@
       "source": "AniList"
     },
     {
+      "title": "The Happiest In The World!",
+      "category": "Manga",
+      "rating": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx206887-XmolgAW52WSv.png",
+      "link": "https://anilist.co/manga/206887",
+      "date": "2026-11-26T12:24:21+00:00",
+      "source": "AniList"
+    },
+    {
       "title": "Dr. STONE",
       "category": "Manga",
       "rating": 4.5,
@@ -61620,7 +61629,7 @@
       "title": "Doctor Slump",
       "category": "Asian Drama",
       "rating": 4.5,
-      "cover": "",
+      "cover": "https://i.mydramalist.com/d0YzR5_4c.jpg?v=1",
       "link": "https://mydramalist.com/744311-doctor-slump",
       "date": null,
       "source": "MyDramaList"
